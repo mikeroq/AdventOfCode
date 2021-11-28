@@ -1,6 +1,6 @@
 <?php
 
-namespace pwnstar\AdventOfCode2020;
+namespace pwnstar\AdventOfCode2021;
 
 require_once "vendor/autoload.php";
 

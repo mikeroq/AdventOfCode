@@ -1,6 +1,6 @@
 {
-    "name": "pwnstar/adventofcode2020",
-    "description": "Advent of Code 2020 Solutions",
+    "name": "pwnstar/adventofcode2021",
+    "description": "Advent of Code 2021 Solutions",
     "type": "project",
     "license": "Apache 2.0",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
 		"psr-4": {
-            "pwnstar\\AdventOfCode2020\\": "advent/"
+            "pwnstar\\AdventOfCode2021\\": "advent/"
         }
     }
 }
