@@ -1,10 +1,10 @@
-# Day 01 - TBD
+# Day 23 - TBD
 
 ## Problem 1
 
 ## Problem 2
 
-## Day 01 Solution
+## Day 23 Solution
 
 ```
 

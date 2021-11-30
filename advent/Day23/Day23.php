@@ -1,10 +1,10 @@
 <?php
 
-namespace pwnstar\AdventOfCode2021\Day01;
+namespace pwnstar\AdventOfCode2021\Day23;
 
 use pwnstar\AdventOfCode2021\Day;
 
-class Day01 extends Day
+class Day23 extends Day
 {
     protected function formatInput(): void
     {
