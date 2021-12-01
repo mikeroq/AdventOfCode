@@ -10,7 +10,7 @@ class Advent
     {
         $dayClass = 'Day' . sprintf('%02d', $day);
         $start_time = microtime(true);
-        $class = "pwnstar\\AdventOfCode2020\\{$dayClass}\\{$dayClass}";
+        $class = "pwnstar\\AdventOfCode2021\\{$dayClass}\\{$dayClass}";
         if (class_exists(($class))) {
             $day = new $class();
             $day->importInput('advent/' . $dayClass . '/input.txt');

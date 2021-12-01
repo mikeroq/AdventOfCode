@@ -4,32 +4,42 @@ namespace pwnstar\AdventOfCode2021;
 
 class Day
 {
-    /**
-     * @var array
-     */
     protected array $input = [];
-
     protected string $file;
-    /**
-     * @param $file
-     */
-    public function importInput($file): void
+
+    public function importInput($file, $string = false): void
     {
-        $this->file = file_get_contents($file);
+        $this->file = ($string == true) ? $string : file_get_contents($file);
         $this->formatInput();
     }
 
     protected function formatInput(): void
     {
+
     }
 
-    public function explodeInputByNewLine()
+    protected function explodeInputByNewLine()
     {
         $this->input = explode("\r\n", trim($this->file));
     }
-    public function explodeInputByBlankLines()
+
+    protected function explodeInputByBlankLines()
     {
-//        $this->input = preg_split('#\n\s*\n#Uis' , $this->file);
         $this->input = explode(PHP_EOL.PHP_EOL, $this->file);
+    }
+
+    protected function splitInputByCharacter()
+    {
+        $this->input = str_split($this->file);
+    }
+
+    public function findFirstAnswer(): int
+    {
+        return 0;
+    }
+
+    public function findSecondAnswer(): int
+    {
+        return 0;
     }
 }
