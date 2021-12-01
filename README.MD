@@ -6,7 +6,7 @@ Here are my Advent Of Code 2021 solutions, written in PHP.
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✅ [Day 1: Sonar Sweep](https://github.com/pwncraft/adventofcode2021/tree/master/advent/Day01)| ✨ | ✨ |
+| ✅ [Day 1: Sonar Sweep](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01)| ✨ | ✨ |
 | [Day 2: TBD]()| | |
 | [Day 3: TBD]()| | |
 | [Day 4: TBD]()| | |
