@@ -14,15 +14,11 @@ class Day01 extends Day
         $this->explodeInputByNewLine();
     }
 
-    protected function findIncreased($input): void
+    protected function findIncreasedDepth($input): void
     {
-        foreach ($input as $key=>$depth) {
-            if ($key == 0) {
-                continue;
-            } else {
-                if ($depth > $input[$key-1]) {
-                    $this->increaseCount++;
-                }
+        for ($i = 0; $i < count($input)-1; $i++) {
+            if ($input[$i+1] > $input[$i]) {
+                $this->increaseCount++;
             }
         }
     }
@@ -30,22 +26,15 @@ class Day01 extends Day
     protected function slidingWindowCalc(): void
     {
         $this->increaseCount = 0;
-        foreach ($this->input as $key=>$depth) {
-            if ($key == 0) {
-                continue;
-            } elseif ($key == count($this->input)-1) {
-                break;
-            } else {
-                @$sum = $this->input[$key-1] + $depth + $this->input[$key+1];
-                array_push($this->sumArray, $sum);
-            }
+        for ($i = 0; $i < count($this->input)-2; $i++) {
+            array_push($this->sumArray, ($this->input[$i] + $this->input[$i+1] + $this->input[$i+2]));
         }
-        $this->findIncreased($this->sumArray);
+        $this->findIncreasedDepth($this->sumArray);
     }
 
     public function findFirstAnswer(): int
     {
-        $this->findIncreased($this->input);
+        $this->findIncreasedDepth($this->input);
         return $this->increaseCount;
     }
 
