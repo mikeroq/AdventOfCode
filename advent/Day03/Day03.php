@@ -13,11 +13,11 @@ class Day03 extends Day
 
     public function findFirstAnswer(): int
     {
-
+        return 0;
     }
 
     public function findSecondAnswer(): int
     {
-
+        return 0;
     }
 }

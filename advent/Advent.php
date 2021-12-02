@@ -14,9 +14,11 @@ class Advent
         if (class_exists(($class))) {
             $day = new $class();
             $day->importInput('advent/' . $dayClass . '/input.txt');
-            echo $dayClass . ' - First Answer: ' . $day->findFirstAnswer() . PHP_EOL
-                . $dayClass . ' - Second Answer: ' . $day->findSecondAnswer() . PHP_EOL
-                . $dayClass . ' - Execution finished in ' . (microtime(true) - $start_time) . ' seconds.' . PHP_EOL;
+            echo $dayClass . ' - First Answer: ' . $day->findFirstAnswer() . PHP_EOL;
+            $day = new $class();
+            $day->importInput('advent/' . $dayClass . '/input.txt');
+            echo $dayClass . ' - Second Answer: ' . $day->findSecondAnswer() . PHP_EOL;
+            echo $dayClass . ' - Execution finished in ' . (microtime(true) - $start_time) . ' seconds.' . PHP_EOL;
         } else {
             echo $dayClass . ' does not exist!';
         }
