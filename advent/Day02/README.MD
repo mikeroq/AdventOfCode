@@ -72,5 +72,7 @@ the planned course. **What do you get if you multiply your final horizontal posi
 ## Day 02 Solution
 
 ```
-
+Day02 - First Answer: 1488669
+Day02 - Second Answer: 1176514794
+Day02 - Execution finished in 0.0018150806427002 seconds.
 ```
