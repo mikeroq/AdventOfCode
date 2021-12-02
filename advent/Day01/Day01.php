@@ -14,7 +14,7 @@ class Day01 extends Day
         $this->explodeInputByNewLine();
     }
 
-    protected function findIncreasedDepth($input): void
+    protected function findIncreasedDepth(array $input): void
     {
         for ($i = 0; $i < count($input)-1; $i++) {
             if ($input[$i+1] > $input[$i]) {
