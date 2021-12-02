@@ -20,4 +20,20 @@ final class Day02Test extends TestCase
 
         $this->assertEquals(900, $day02->findSecondAnswer());
     }
+
+    public function testPart1RealAnswerEquals1488669(): void
+    {
+        $day02 = new Day02();
+        $day02->importInput('advent/Day02/input.txt');
+
+        $this->assertEquals(1488669, $day02->findFirstAnswer());
+    }
+
+    public function testPart2RealAnswerEquals1176514794(): void
+    {
+        $day02 = new Day02();
+        $day02->importInput('advent/Day02/input.txt');
+
+        $this->assertEquals(1176514794, $day02->findSecondAnswer());
+    }
 }

@@ -25,7 +25,6 @@ class Day01 extends Day
 
     protected function slidingWindowCalc(): void
     {
-        $this->increaseCount = 0;
         for ($i = 0; $i < count($this->input)-2; $i++) {
             array_push($this->sumArray, ($this->input[$i] + $this->input[$i+1] + $this->input[$i+2]));
         }

@@ -6,16 +6,11 @@ use pwnstar\AdventOfCode2021\Day;
 
 class Day02 extends Day
 {
-    private array $submarinePosition = [];
+    private array $submarinePosition = ['depth' => 0, 'horizontal' => 0, 'aim' => 0];
 
     protected function formatInput(): void
     {
         $this->explodeInputByNewLine();
-    }
-
-    protected function startSubmarine(): void
-    {
-        $this->submarinePosition = ['depth' => 0, 'horizontal' => 0, 'aim' => 0];
     }
 
     protected function moveSubmarine($instruction, $x, $withAim): void
@@ -42,24 +37,22 @@ class Day02 extends Day
         }
     }
 
-    protected function processCourse($withAim): void
+    protected function processCourse($withAim): int
     {
-        $this->startSubmarine();
         foreach ($this->input as $movement) {
             preg_match("/(?<command>forward|down|up) (?<X>\d+)/", $movement, $instruction);
             $this->moveSubmarine($instruction['command'], $instruction['X'], $withAim);
         }
+        return ($this->submarinePosition['depth'] * $this->submarinePosition['horizontal']);
     }
 
     public function findFirstAnswer(): int
     {
-        $this->processCourse(false);
-        return ($this->submarinePosition['depth'] * $this->submarinePosition['horizontal']);
+        return $this->processCourse(false);
     }
 
     public function findSecondAnswer(): int
     {
-        $this->processCourse(true);
-        return ($this->submarinePosition['depth'] * $this->submarinePosition['horizontal']);
+        return $this->processCourse(true);
     }
 }
