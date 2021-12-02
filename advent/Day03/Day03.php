@@ -8,7 +8,7 @@ class Day03 extends Day
 {
     protected function formatInput(): void
     {
-        
+        //help
     }
 
     public function findFirstAnswer(): int
