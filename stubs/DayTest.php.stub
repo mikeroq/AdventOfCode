@@ -1,0 +1,15 @@
+<?php 
+namespace pwnstar\AdventOfCode%YEAR%\Day%DAY%;
+
+use PHPUnit\Framework\TestCase;
+
+final class Day%DAY%Test extends TestCase
+{
+    public function testPart1Equals0(): void
+    {
+        $day%DAY% = new Day%DAY%();
+        $day%DAY%->importInput('advent/Day%DAY%/test_input.txt');
+
+        $this->assertEquals(0, $day%DAY%->findFirstAnswer());
+    }
+}

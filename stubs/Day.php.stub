@@ -1,0 +1,23 @@
+<?php
+
+namespace pwnstar\AdventOfCode%YEAR%\Day%DAY%;
+
+use pwnstar\AdventOfCode%YEAR%\Day;
+
+class Day%DAY% extends Day
+{
+    protected function formatInput(): void
+    {
+        
+    }
+
+    public function findFirstAnswer(): int
+    {
+
+    }
+
+    public function findSecondAnswer(): int
+    {
+
+    }
+}
