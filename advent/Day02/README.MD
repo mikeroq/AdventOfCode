@@ -76,3 +76,17 @@ Day02 - First Answer: 1488669
 Day02 - Second Answer: 1176514794
 Day02 - Execution finished in 0.0018150806427002 seconds.
 ```
+```
+*** TESTING DAY Day02 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day02 (pwnstar\AdventOfCode2021\Day02\Day02)
+ ✔ Part 1 example equals 150
+ ✔ Part 2 example equals 900
+ ✔ Part 1 real answer equals 1488669
+ ✔ Part 2 real answer equals 1176514794
+
+Time: 00:00.009, Memory: 4.00 MB
+
+OK (4 tests, 4 assertions)
+```

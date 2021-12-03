@@ -1,8 +1,5 @@
 <?php
-
 $year = "2021";
-
-
 $classFile = file_get_contents('stubs/Day.php.stub');
 $testClassFile = file_get_contents('stubs/DayTest.php.stub');
 $readmeFile = file_get_contents('stubs/README.MD.stub');

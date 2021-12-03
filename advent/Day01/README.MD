@@ -107,3 +107,17 @@ Day01 - First Answer: 1713
 Day01 - Second Answer: 1734
 Day01 - Execution finished in 0.0015020370483398 seconds.
 ```
+```
+*** TESTING DAY Day01 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day01 (pwnstar\AdventOfCode2021\Day01\Day01)
+ ✔ Part 1 example equals 7
+ ✔ Part 2 example equals 5
+ ✔ Part 1 real answer equals 1713
+ ✔ Part 2 real answer equals 1734
+
+Time: 00:00.011, Memory: 4.00 MB
+
+OK (4 tests, 4 assertions)
+```
