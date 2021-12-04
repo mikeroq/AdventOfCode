@@ -27,12 +27,9 @@ class Day03 extends Day
 
     protected function removeRows(array $array, int $position, int $remove): array
     {
-        foreach ($array as $key => $line) {
-            if ($line[$position] == $remove) {
-                unset($array[$key]);
-            }
-        }
-        return $array;
+        return array_filter($array, function($key) use ($position, $remove, $array) {
+            return $array[$key][$position] == $remove;
+        }, ARRAY_FILTER_USE_KEY);
     }
 
     protected function findPowerConsumption(): int
@@ -54,30 +51,19 @@ class Day03 extends Day
     {
         $oxygenArray = $this->binary;
         $scrubberArray = $this->binary;
-
         for ($position = 0; $position < strlen($this->input[0]); $position++) {
-            $oxygenColumn = array_column($oxygenArray, $position);
-            $scrubberColumn = array_column($scrubberArray, $position);
+            $oxygenColumnCount = $this->columnCount(array_column($oxygenArray, $position));
+            $scrubberColumnCount = $this->columnCount(array_column($scrubberArray, $position));
             if (count($oxygenArray) != 1) {
-                if ($this->columnCount($oxygenColumn)[0] > $this->columnCount($oxygenColumn)[1]) {
-                    $oxygenArray = $this->removeRows($oxygenArray, $position, 1);
-
-                } else {
-                    $oxygenArray = $this->removeRows($oxygenArray, $position, 0);
-                }
+                $remove = ($oxygenColumnCount[0] > $oxygenColumnCount[1]) ? 1 : 0;
+                $oxygenArray = $this->removeRows($oxygenArray, $position, $remove);
             }
             if (count($scrubberArray) != 1) {
-                if ($this->columnCount($scrubberColumn)[0] > $this->columnCount($scrubberColumn)[1]) {
-                    $scrubberArray = $this->removeRows($scrubberArray, $position, 0);
-                } else {
-                    $scrubberArray = $this->removeRows($scrubberArray, $position, 1);
-                }
+                $remove = ($scrubberColumnCount[0] > $scrubberColumnCount[1]) ? 0 : 1;
+                $scrubberArray = $this->removeRows($scrubberArray, $position, $remove);
             }
         }
-        $oxygen = implode(array_merge(...$oxygenArray));
-        $scrubber = implode(array_merge(...$scrubberArray));
-
-        return bindec($oxygen) * bindec($scrubber);
+        return bindec(implode(array_merge(...$oxygenArray))) * bindec(implode(array_merge(...$scrubberArray)));
     }
 
     public function findFirstAnswer(): int
