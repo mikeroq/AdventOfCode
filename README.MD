@@ -7,8 +7,8 @@ Here are my Advent Of Code 2021 solutions, written in PHP.
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | ✅ [Day 1: Sonar Sweep](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01)| ✨ | ✨ |
-| ✅ [Day 2: Dive!](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day02)| ✨ | ✨|
-| ⌚ [Day 3: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day03)| | |
+| ✅ [Day 2: Dive!](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day02)| ✨ | ✨ |
+| ✅ [Day 3: Binary Diagnostic](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day03)| ✨ | ✨ |
 | ⌚ [Day 4: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day04)| | |
 | ⌚ [Day 5: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day05)| | |
 | ⌚ [Day 6: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day06)| | |
