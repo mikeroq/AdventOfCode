@@ -18,30 +18,29 @@ class Day05 extends Day
         }
     }
 
-    protected function doPart1(): int
+    protected function plotVents(bool $diag = false): int
     {
-        foreach ($this->vents as $key=>$ventLine) {
-            if ($ventLine['x1'] == $ventLine['x2']) {
-                if ($ventLine['y1'] > $ventLine['y2']) {
-                    $startY = $ventLine['y2'];
-                    $endY = $ventLine['y1'];
-                } else {
-                    $startY = $ventLine['y1'];
-                    $endY = $ventLine['y2'];
+        foreach ($this->vents as $ventLine) {
+            if ($diag == true) {
+                if (($ventLine['x1'] !== $ventLine['x2']) && ($ventLine['y1'] !== $ventLine['y2'])) {
+                    foreach (range($ventLine['x1'], $ventLine['x2']) as $step => $v) {
+                        $x = ($ventLine['x1'] > $ventLine['x2']) ? $ventLine['x1'] - $step : $ventLine['x1'] + $step;
+                        $y = ($ventLine['y1'] > $ventLine['y2']) ? $ventLine['y1'] - $step : $ventLine['y1'] + $step;
+                        @$this->ventMap[$y][$x]++;
+                    }
                 }
+            }
+            if ($ventLine['x1'] == $ventLine['x2']) {
+                $startY = ($ventLine['y1'] > $ventLine['y2']) ? $ventLine['y2'] : $ventLine['y1'];
+                $endY = ($ventLine['y1'] > $ventLine['y2']) ? $ventLine['y1'] : $ventLine['y2'];
                 for($i = $startY; $i <= $endY; $i++) {
-                    @$this->ventMap[$ventLine['x1']][$i]++;
+                    @$this->ventMap[$i][$ventLine['x1']]++;
                 }
             } elseif ($ventLine['y1'] == $ventLine['y2']) {
-                if ($ventLine['x1'] > $ventLine['x2']) {
-                    $startX = $ventLine['x2'];
-                    $endX = $ventLine['x1'];
-                } else {
-                    $startX = $ventLine['x1'];
-                    $endX = $ventLine['x2'];
-                }
+                $startX = ($ventLine['x1'] > $ventLine['x2']) ? $ventLine['x2'] : $ventLine['x1'];
+                $endX = ($ventLine['x1'] > $ventLine['x2']) ? $ventLine['x1'] : $ventLine['x2'];
                 for($i = $startX; $i <= $endX; $i++) {
-                    @$this->ventMap[$i][$ventLine['y1']]++;
+                    @$this->ventMap[$ventLine['y1']][$i]++;
                 }
             }
         }
@@ -56,12 +55,11 @@ class Day05 extends Day
 
     public function findFirstAnswer(): int
     {
-
-        return $this->doPart1();
+        return $this->plotVents();
     }
 
     public function findSecondAnswer(): int
     {
-        return 0;
+       return $this->plotVents(true);
     }
 }
