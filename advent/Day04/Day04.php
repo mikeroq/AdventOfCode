@@ -7,7 +7,6 @@ use pwnstar\AdventOfCode2021\Day;
 class Day04 extends Day
 {
     private array $numbers = [];
-    private array $calledNumbers = [];
     private array $cards = [];
 
     protected function formatInput(): void
@@ -25,30 +24,30 @@ class Day04 extends Day
                 array_push($this->cards, $array);
             }
         }
+        dd(count($this->cards));
     }
 
-    protected function hasBingo(array $board): bool
+    protected function hasBingo(array $board, array $calledNumbers): bool
     {
         foreach ($board as $row) {
-            if (count(array_filter($row, fn ($num) => in_array($num, $this->calledNumbers))) == 5) {
+            if (count(array_filter($row, fn ($num) => in_array($num, $calledNumbers))) == 5) {
                 return true;
             }
         }
         for ($col = 1; $col <= count($board[0]); $col++) {
-            if (count(array_filter(array_column($board, $col), fn ($num) => in_array($num, $this->calledNumbers))) == 5) {
+            if (count(array_filter(array_column($board, $col), fn ($num) => in_array($num, $calledNumbers))) == 5) {
                 return true;
             }
         }
         return false;
     }
 
-    protected function sumUnmarked($card): int
+    protected function sumUnmarked($card, array $calledNumbers): int
     {
         $sum = 0;
         foreach($card as $row) {
             foreach ($row as $col) {
-                if (!in_array($col, $this->calledNumbers)) {
-
+                if (!in_array($col, $calledNumbers)) {
                     $sum += $col;
                 }
             }
@@ -56,63 +55,78 @@ class Day04 extends Day
         return $sum;
     }
 
-    protected function doPart1(): int
-    {
-        $justCalled = 0;
-        $boardSum = 0;
-        foreach($this->numbers as $callout) {
-            array_push($this->calledNumbers, $callout);
-            foreach ($this->cards as $card) {
-                if ($this->hasBingo($card) == true) {
-                    $justCalled = $callout;
-                    $boardSum = $this->sumUnmarked($card);
-                    return $justCalled * $boardSum;
-                }
-            }
-        }
-        return 0;
-    }
+//    protected function doPart1(): int
+//    {
+//        $justCalled = 0;
+//        $boardSum = 0;
+//        foreach($this->numbers as $callout) {
+//            array_push($this->calledNumbers, $callout);
+//            foreach ($this->cards as $card) {
+//                if ($this->hasBingo($card) == true) {
+//                    $justCalled = $callout;
+//                    $boardSum = $this->sumUnmarked($card);
+//                    return $justCalled * $boardSum;
+//                }
+//            }
+//        }
+//        return 0;
+//    }
 
-    protected function doPart2(): int
+    protected function playBingo(bool $stopOnFirst = true): int
     {
-        $lastBingo = ['card' => 0, 'callout' => 0];
-        $justCalled = 0;
-        $boardSum = 0;
-        $boardsWon = [];
-        foreach($this->numbers as $callout) {
-            array_push($this->calledNumbers, $callout);
+        $lastBingo = ['card' => 0, 'callout' => 0, 'sum' => 0, 'boardsWon' => []];
+        $calledNumbers = [];
+        foreach ($this->numbers as $callout) {
+            array_push($calledNumbers, $callout);
             foreach ($this->cards as $key => $card) {
-                if(!in_array($key, $boardsWon)) {
-                    if ($this->hasBingo($card) == true) {
-                        if (in_array($key, $boardsWon)) {
-                            break;
-                        } else {
-                            array_push($boardsWon, $key);
-                            $lastBingo['card'] = $key;
+                if (!in_array($key, $lastBingo['boardsWon'])) {
+                    if ($this->hasBingo($card, $calledNumbers) == true) {
+                        array_push($lastBingo['boardsWon'], $key);
+                        $lastBingo['card'] = $key;
+                        $lastBingo['callout'] = $callout;
+                        $lastBingo['sum'] = $this->sumUnmarked($this->cards[$lastBingo['card']], $calledNumbers) * $lastBingo['callout'];
+                        if ($stopOnFirst == true) {
+                            break 2;
                         }
                     }
                 }
             }
         }
-        $this->calledNumbers = [];
-        foreach($this->numbers as $called) {
-            array_push($this->calledNumbers, $called);
-            if ($this->hasBingo($this->cards[$lastBingo['card']]) == true) {
-                $lastBingo['callout'] = $called;
-                $sum = $this->sumUnmarked($this->cards[$lastBingo['card']]);
-                return $sum * $lastBingo['callout'];
-            }
-        }
-        return 0;
+        return $lastBingo['sum'];
     }
+
+//    protected function doPart2(): int
+//    {
+//        $lastBingo = ['card' => 0, 'callout' => 0];
+//        $boardsWon = [];
+//        $sum = 0;
+//        foreach($this->numbers as $callout) {
+//            array_push($this->calledNumbers, $callout);
+//            foreach ($this->cards as $key => $card) {
+//                if(!in_array($key, $boardsWon)) {
+//                    if ($this->hasBingo($card) == true) {
+//                        if (in_array($key, $boardsWon)) {
+//                            break;
+//                        } else {
+//                            array_push($boardsWon, $key);
+//                            $lastBingo['card'] = $key;
+//                            $lastBingo['callout'] = $callout;
+//                            $sum = $this->sumUnmarked($this->cards[$lastBingo['card']]) * $lastBingo['callout'];
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//        return $sum;
+//    }
 
     public function findFirstAnswer(): int
     {
-        return $this->doPart1();
+        return $this->playBingo(true);
     }
 
     public function findSecondAnswer(): int
     {
-        return $this->doPart2();
+        return $this->playBingo();
     }
 }

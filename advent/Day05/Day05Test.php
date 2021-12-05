@@ -5,11 +5,11 @@ use PHPUnit\Framework\TestCase;
 
 final class Day05Test extends TestCase
 {
-    public function testPart1Equals0(): void
+    public function testPart1ExampleEquals5(): void
     {
         $day05 = new Day05();
         $day05->importInput('advent/Day05/test_input.txt');
 
-        $this->assertEquals(0, $day05->findFirstAnswer());
+        $this->assertEquals(5, $day05->findFirstAnswer());
     }
 }
