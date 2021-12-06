@@ -33,6 +33,11 @@ class Day
         $this->input = str_split($this->file);
     }
 
+    protected function explodeInputByDelimiter(string $delimiter)
+    {
+        $this->input = explode($delimiter, $this->file);
+    }
+
     public function findFirstAnswer(): int
     {
         return 0;
