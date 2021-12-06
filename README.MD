@@ -11,7 +11,7 @@ Here are my Advent Of Code 2021 solutions, written in PHP.
 | ✅ [Day 3: Binary Diagnostic](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day03)| ✨ | ✨ |
 | ✅ [Day 4: Giant Squid](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day04)| ✨ | ✨ |
 | ✅ [Day 5: Hydrothermal Venture](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day05)| ✨ | ✨ |
-| ⌚ [Day 6: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day06)| | |
+| ✅ [Day 6: Lanternfish](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day06)| ✨ | ✨ |
 | ⌚ [Day 7: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day07)| | |
 | ⌚ [Day 8: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day08)| | |
 | ⌚ [Day 9: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day09)| | |
