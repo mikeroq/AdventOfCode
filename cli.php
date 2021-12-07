@@ -16,6 +16,7 @@ $cli->command('run')
 try {
     $args = $cli->parse($argv, true);
 } catch (Exception $e) {
+    echo "There was an error: $e"
 }
 
 if (isset($args)) {
@@ -41,6 +42,3 @@ if (isset($args)) {
         break;
     }
 }
-
-
-
