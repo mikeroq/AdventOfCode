@@ -9,7 +9,7 @@
         <tr>
             <td rowspan="2">2021</td>
             <td>Part 1</td>
-            <td>✅✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td><a title="Day 1" href="https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
         </tr>
         <tr>
