@@ -3,6 +3,7 @@
         <tr>
             <th rowspan="2" colspan="2">Year</th>
             <th colspan="2">Progress</th>
+            <th>Completed</th>
         </tr>
     </thead>
     <tbody>
@@ -11,6 +12,7 @@
             <td>Part 1</td>
             <td><a title="Day 1" href="https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
+            <td rowspan="2" align="center">7 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -22,6 +24,7 @@
             <td>Part 1</td>
             <td>✅✅✅✅✅✅✅✅✅✅⬛✅✅✅⬛✅⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>14/25</td>
+            <td rowspan="2" align="center">12 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -33,6 +36,7 @@
             <td>Part 1</td>
             <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>0/25</td>
+            <td rowspan="2" align="center">0 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -44,6 +48,7 @@
             <td>Part 1</td>
             <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>0/25</td>
+            <td rowspan="2" align="center">0 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -55,6 +60,7 @@
             <td>Part 1</td>
             <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>0/25</td>
+            <td rowspan="2" align="center">0 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -66,6 +72,7 @@
             <td>Part 1</td>
             <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>0/25</td>
+            <td rowspan="2" align="center">0 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -77,6 +84,7 @@
             <td>Part 1</td>
             <td>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>6/25</td>
+            <td rowspan="2" align="center">6 Days<br />✨✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
