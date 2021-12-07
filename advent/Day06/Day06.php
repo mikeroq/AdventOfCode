@@ -2,7 +2,6 @@
 
 namespace pwnstar\AdventOfCode2021\Day06;
 
-use PhpParser\Node\Param;
 use pwnstar\AdventOfCode2021\Day;
 
 class Day06 extends Day
@@ -21,7 +20,7 @@ class Day06 extends Day
         foreach ($this->lanternfish as $count) {
             $fishCount[$count]++;
         }
-        for ($i =1; $i <= $daysToRun; $i++) {
+        for ($i=1; $i <= $daysToRun; $i++) {
             $newFish = array_shift($fishCount);
             $fishCount[8] = $newFish;
             $fishCount[6] += $newFish;

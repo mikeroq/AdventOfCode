@@ -24,7 +24,6 @@ class Day04 extends Day
                 array_push($this->cards, $array);
             }
         }
-        dd(count($this->cards));
     }
 
     protected function hasBingo(array $board, array $calledNumbers): bool
