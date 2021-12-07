@@ -10,25 +10,25 @@
         <tr>
             <td rowspan="2">2021</td>
             <td>Part 1</td>
-            <td><a title="Day 1" href="https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td><a title="Day 1" href="https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01">✨</a>✨✨✨✨✨✨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
             <td rowspan="2" align="center">14/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
-            <td>✅✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✨✨✨✨✨✨✨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
         </tr>
         <tr>
             <td rowspan="2">2020</td>
             <td>Part 1</td>
-            <td>✅✅✅✅✅✅✅✅✅✅⬛✅✅✅⬛✅⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✨✨✨✨✨✨✨✨✨✨⬛✨✨✨⬛✨⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>14/25</td>
             <td rowspan="2" align="center">26/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
-            <td>✅✅✅✅✅✅✅✅✅✅⬛✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✨✨✨✨✨✨✨✨✨✨⬛✨✨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>12/25</td>
         </tr>
         <tr>
@@ -82,13 +82,13 @@
         <tr>
             <td rowspan="2">2015</td>
             <td>Part 1</td>
-            <td>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✨✨✨✨✨✨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>6/25</td>
             <td rowspan="2" align="center">12/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
-            <td>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✨✨✨✨✨✨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>6/25</td>
         </tr>
     </tbody>
