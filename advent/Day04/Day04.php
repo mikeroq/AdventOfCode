@@ -13,7 +13,6 @@ class Day04 extends Day
     {
         $this->explodeInputByBlankLines();
         foreach ($this->input as $key => $line) {
-            // line one is numbers
             if ($key == 0) {
                 $this->numbers = array_map('intval',explode(',', $line));
             } else {
@@ -54,36 +53,18 @@ class Day04 extends Day
         return $sum;
     }
 
-//    protected function doPart1(): int
-//    {
-//        $justCalled = 0;
-//        $boardSum = 0;
-//        foreach($this->numbers as $callout) {
-//            array_push($this->calledNumbers, $callout);
-//            foreach ($this->cards as $card) {
-//                if ($this->hasBingo($card) == true) {
-//                    $justCalled = $callout;
-//                    $boardSum = $this->sumUnmarked($card);
-//                    return $justCalled * $boardSum;
-//                }
-//            }
-//        }
-//        return 0;
-//    }
-
-    protected function playBingo(bool $stopOnFirst = true): int
+    protected function playBingo(bool $stopOnFirst = false): int
     {
-        $lastBingo = ['card' => 0, 'callout' => 0, 'sum' => 0, 'boardsWon' => []];
-        $calledNumbers = [];
+        $lastBingo = ['card' => 0, 'callout' => 0, 'sum' => 0, 'boardsWon' => [], 'calledNumbers' => []];
         foreach ($this->numbers as $callout) {
-            array_push($calledNumbers, $callout);
+            array_push($lastBingo['calledNumbers'], $callout);
             foreach ($this->cards as $key => $card) {
                 if (!in_array($key, $lastBingo['boardsWon'])) {
-                    if ($this->hasBingo($card, $calledNumbers) == true) {
+                    if ($this->hasBingo($card, $lastBingo['calledNumbers']) == true) {
                         array_push($lastBingo['boardsWon'], $key);
                         $lastBingo['card'] = $key;
                         $lastBingo['callout'] = $callout;
-                        $lastBingo['sum'] = $this->sumUnmarked($this->cards[$lastBingo['card']], $calledNumbers) * $lastBingo['callout'];
+                        $lastBingo['sum'] = $this->sumUnmarked($this->cards[$lastBingo['card']], $lastBingo['calledNumbers']) * $lastBingo['callout'];
                         if ($stopOnFirst == true) {
                             break 2;
                         }
@@ -93,31 +74,6 @@ class Day04 extends Day
         }
         return $lastBingo['sum'];
     }
-
-//    protected function doPart2(): int
-//    {
-//        $lastBingo = ['card' => 0, 'callout' => 0];
-//        $boardsWon = [];
-//        $sum = 0;
-//        foreach($this->numbers as $callout) {
-//            array_push($this->calledNumbers, $callout);
-//            foreach ($this->cards as $key => $card) {
-//                if(!in_array($key, $boardsWon)) {
-//                    if ($this->hasBingo($card) == true) {
-//                        if (in_array($key, $boardsWon)) {
-//                            break;
-//                        } else {
-//                            array_push($boardsWon, $key);
-//                            $lastBingo['card'] = $key;
-//                            $lastBingo['callout'] = $callout;
-//                            $sum = $this->sumUnmarked($this->cards[$lastBingo['card']]) * $lastBingo['callout'];
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//        return $sum;
-//    }
 
     public function findFirstAnswer(): int
     {
