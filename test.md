@@ -29,8 +29,8 @@
 260 (decreased)
 263 (<b>increased</b>)
 </code></pre>
-<p>In this example, there are <b><code>7</code></b> measurements that are larger than the previous measurement.</p>
-<p><b>How many measurements are larger than the previous measurement?</b></p>
+
+
 </article>
 <p>Your puzzle answer was <code>1713</code>.</p><article class="day-desc"><h2 id="part2">--- Part Two ---</h2><p>Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.</p>
 <p>Instead, consider sums of a <b>three-measurement sliding window</b>.  Again considering the above example:</p>
@@ -57,24 +57,16 @@ F: 716 (<b>increased</b>)
 G: 769 (<b>increased</b>)
 H: 792 (<b>increased</b>)
 </code></pre>
-<p>In this example, there are <b><code>5</code></b> sums that are larger than the previous sum.</p>
-<p>Consider sums of a three-measurement sliding window. <b>How many sums are larger than the previous sum?</b></p>
-</article>
-<p>Your puzzle answer was <code>1734</code>.</p>
-<p class="day-success">Both parts of this puzzle are complete! They provide two gold stars: **</p>
-<p>At this point, you should <a href="/2021">return to your Advent calendar</a> and try another puzzle.</p>
-<p>If you still want to see it, you can <a href="1/input" target="_blank">get your puzzle input</a>.</p>
-<p>You can also <span class="share">[Share<span class="share-content">on
-  <a href="https://twitter.com/intent/tweet?text=I%27ve+completed+%22Sonar+Sweep%22+%2D+Day+1+%2D+Advent+of+Code+2021&amp;url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F1&amp;related=ericwastl&amp;hashtags=AdventOfCode" target="_blank">Twitter</a>
-  <a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=I%27ve+completed+%22Sonar+Sweep%22+%2D+Day+1+%2D+Advent+of+Code+2021+%23AdventOfCode+https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F1'}else{return false;}" target="_blank">Mastodon</a></span>]</span> this puzzle.</p>
 
-```
-Day01 - First Answer: 1713
+
+</article>
+<p>Your puzzle answer was <code>1734</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
+<h2>--- Results ---</h2>
+<pre><code>Day01 - First Answer: 1713
 Day01 - Second Answer: 1734
-Day01 - Execution finished in 0.0020949840545654 seconds.
-```
-```
-*** TESTING DAY Day01 ***
+Day01 - Execution finished in 0.0020051002502441 seconds.
+</code></pre>
+<pre><code>*** TESTING DAY Day01 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day01 (mikeroq\AdventOfCode\AdventOfCode2021\Day01\Day01)
@@ -83,7 +75,7 @@ Day01 (mikeroq\AdventOfCode\AdventOfCode2021\Day01\Day01)
  ✔ Part 1 real answer equals 1713
  ✔ Part 2 real answer equals 1734
 
-Time: 00:00.009, Memory: 4.00 MB
+Time: 00:00.011, Memory: 4.00 MB
 
 OK (4 tests, 4 assertions)
-```
+</code></pre>
