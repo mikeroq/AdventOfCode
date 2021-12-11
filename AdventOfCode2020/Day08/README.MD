@@ -65,11 +65,8 @@ acc +6  | 6
 </article>
 <p>Your puzzle answer was <code>758</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2020 DAY Day07 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-
-Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day07\Day07::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day07\Day07.php on line 53
+<pre><code>
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day08::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08.php on line 95
 </code></pre>
 <pre><code>*** TESTING 2020 DAY Day08 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

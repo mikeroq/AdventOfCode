@@ -1,0 +1,7 @@
+
+Fatal error: Uncaught TypeError: mikeroq\AdventOfCode\AdventOfCode2020\Day12\Day12::findFirstAnswer(): Return value must be of type int, none returned in C:\Code\AdventOfCode\AdventOfCode2020\Day12\Day12.php:17
+Stack trace:
+#0 C:\Code\AdventOfCode\Shared\Advent.php(15): mikeroq\AdventOfCode\AdventOfCode2020\Day12\Day12->findFirstAnswer()
+#1 C:\Code\AdventOfCode\cli.php(28): mikeroq\AdventOfCode\Shared\Advent->runDay(2020, Object(mikeroq\AdventOfCode\AdventOfCode2020\Day12\Day12))
+#2 {main}
+  thrown in C:\Code\AdventOfCode\AdventOfCode2020\Day12\Day12.php on line 17

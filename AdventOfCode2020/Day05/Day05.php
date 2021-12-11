@@ -13,7 +13,7 @@ class Day05 extends Day
         $this->explodeInputByNewLine();
     }
 
-    protected function part1()
+    protected function part1(): int
     {
         $this->seats = array_map(function ($a) {
             $a = str_replace(array("F", "B", "L", "R"), array(0, 1, 0, 1), $a);
@@ -23,7 +23,7 @@ class Day05 extends Day
         return max($this->seats);
     }
 
-    protected function part2()
+    protected function part2(): int
     {
         if (empty($this->seats)) {
             $this->part1();
@@ -33,12 +33,12 @@ class Day05 extends Day
         return $seat;
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }

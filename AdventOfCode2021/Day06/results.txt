@@ -1,0 +1,3 @@
+2021 Day06 - First Answer: 396210
+2021 Day06 - Second Answer: 1770823541496
+2021 Day06 - Execution finished in 0.020359039306641 seconds.

@@ -1,0 +1,12 @@
+*** TESTING 2021 DAY Day07 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day07 (mikeroq\AdventOfCode\AdventOfCode2021\Day07\Day07)
+ ✔ Part 1 example equals 37
+ ✔ Part 2 example equals 168
+ ✔ Part 1 real answer equals 357353
+ ✔ Part 2 example equals 104822130
+
+Time: 00:00.262, Memory: 6.00 MB
+
+OK (4 tests, 4 assertions)

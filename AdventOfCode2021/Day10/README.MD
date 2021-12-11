@@ -82,15 +82,9 @@
 </article>
 <p>Your puzzle answer was <code>3969823589</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2021 DAY Day09 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day09 (mikeroq\AdventOfCode\AdventOfCode2021\Day09\Day09)
- ✔ Part 1 example equals 15
-
-Time: 00:00.016, Memory: 4.00 MB
-
-OK (1 test, 1 assertion)
+<pre><code>2021 Day10 - First Answer: 265527
+2021 Day10 - Second Answer: 3969823589
+2021 Day10 - Execution finished in 0.020249128341675 seconds.
 </code></pre>
 <pre><code>*** TESTING 2021 DAY Day10 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

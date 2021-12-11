@@ -24,3 +24,6 @@ Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3
 </article>
 
 <form method="post" action="15/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>Not completed</code></pre>
+<pre><code>Not completed</code></pre>

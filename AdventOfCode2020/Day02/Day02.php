@@ -25,7 +25,7 @@ class Day02 extends Day
         $this->input = $new;
     }
 
-    protected function findValidPasswords()
+    protected function findValidPasswords(): int
     {
         $match = 0;
         foreach ($this->input as $password) {
@@ -37,7 +37,7 @@ class Day02 extends Day
         return $match;
     }
 
-    protected function findValidPasswordsPart2()
+    protected function findValidPasswordsPart2(): int
     {
         $match = 0;
         foreach ($this->input as $password) {
@@ -50,21 +50,13 @@ class Day02 extends Day
         return $match;
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
-        $match = $this->findValidPasswords();
-        if ($match > 0) {
-            return $match;
-        }
-        return false;
+        return $this->findValidPasswords();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
-        $match = $this->findValidPasswordsPart2();
-        if ($match > 0) {
-            return $match;
-        }
-        return false;
+        return $this->findValidPasswordsPart2();
     }
 }

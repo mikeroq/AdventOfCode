@@ -62,7 +62,10 @@ H: 792 (<b>increased</b>)
 </article>
 <p>Your puzzle answer was <code>1734</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Not completed</code></pre>
+<pre><code>2021 Day01 - First Answer: 1713
+2021 Day01 - Second Answer: 1734
+2021 Day01 - Execution finished in 0.001957893371582 seconds.
+</code></pre>
 <pre><code>*** TESTING 2021 DAY Day01 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 

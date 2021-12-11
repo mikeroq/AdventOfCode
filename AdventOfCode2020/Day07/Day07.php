@@ -37,7 +37,6 @@ class Day07 extends Day
 
             $newBagArray[$bagColor] = $newArray;
         }
-        dd($newBagArray);
     }
 
     protected function part1()
@@ -50,13 +49,13 @@ class Day07 extends Day
 
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
-        return $this->part1();
+        return 0;
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
-        return $this->part2();
+        return 0;
     }
 }

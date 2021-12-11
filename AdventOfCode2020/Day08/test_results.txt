@@ -1,0 +1,37 @@
+*** TESTING 2020 DAY Day08 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day08 (mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day08)
+ ✘ Part 1 test input equals 5
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:10
+   │
+
+ ✘ Part 2 test input equals 8
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:18
+   │
+
+ ✘ Part 1 equals real answer 1594
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:27
+   │
+
+ ✘ Part 2 equals real answer 758
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:35
+   │
+
+Time: 00:00.027, Memory: 6.00 MB
+
+
+ERRORS!
+Tests: 4, Assertions: 0, Errors: 4.

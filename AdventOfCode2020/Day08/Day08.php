@@ -27,7 +27,7 @@ class Day08 extends Day
         $this->count = count($this->instructions);
     }
 
-    protected function executeFunction($instructions, $index)
+    protected function executeFunction($instructions, $index): mixed
     {
         if ($index == $this->count) {
             return "found";
@@ -58,13 +58,13 @@ class Day08 extends Day
         }
     }
 
-    protected function part1()
+    protected function part1(): int
     {
         $this->executeFunction($this->instructions, 0);
         return $this->acc;
     }
 
-    protected function part2()
+    protected function part2(): int
     {
         $i = 0;
         $this->acc = 0;
@@ -92,12 +92,12 @@ class Day08 extends Day
         return $this->acc;
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }

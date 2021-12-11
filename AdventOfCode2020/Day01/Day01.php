@@ -23,7 +23,7 @@ class Day01 extends Day
     /**
      * @return bool
      */
-    protected function findTwoSums()
+    protected function findTwoSums(): bool
     {
         $haystack = $this->input;
         foreach ($haystack as $key => $value) {
@@ -37,10 +37,7 @@ class Day01 extends Day
         return false;
     }
 
-    /**
-     * @return array|false
-     */
-    protected function findThreeSums()
+    protected function findThreeSums(): mixed
     {
         $haystack = $this->input;
         sort($haystack);
@@ -61,25 +58,19 @@ class Day01 extends Day
         return false;
     }
 
-    /**
-     * @return false|float|int
-     */
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         if ($this->findTwoSums()) {
             return array_product($this->found);
         }
-        return false;
+        return 0;
     }
 
-    /**
-     * @return false|float|int
-     */
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         if ($this->findThreeSums()) {
             return array_product($this->found);
         }
-        return false;
+        return 0;
     }
 }

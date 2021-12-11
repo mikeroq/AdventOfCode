@@ -103,11 +103,8 @@ iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719
 </article>
 <p>Your puzzle answer was <code>156</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2020 DAY Day03 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-
-Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day03\Day03::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day03\Day03.php on line 30
+<pre><code>
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day04\Day04::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day04\Day04.php on line 77
 </code></pre>
 <pre><code>*** TESTING 2020 DAY Day04 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

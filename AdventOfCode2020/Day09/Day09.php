@@ -25,7 +25,7 @@ class Day09 extends Day
         return false;
     }
 
-    public function findSubArray($input, $target)
+    public function findSubArray($input, $target): array|bool
     {
         for ($i = 0; $i < count($input)-1; $i++) {
             for ($sumArray = [], $currentSum = $input[$i], $j = $i + 1; $j < count($input)-1; $j++) {
@@ -41,7 +41,7 @@ class Day09 extends Day
         }
         return false;
     }
-    protected function part1()
+    protected function part1(): int
     {
         $start = 0;
         $start2 = 25;
@@ -56,18 +56,18 @@ class Day09 extends Day
         return 0;
     }
 
-    protected function part2()
+    protected function part2(): int
     {
         $result = $this->findSubArray($this->input, 258585477);
         return min($result) + max($result);
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }

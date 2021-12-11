@@ -15,7 +15,7 @@ class Day10 extends Day
         sort($this->input);
     }
 
-    protected function part1()
+    protected function part1(): int
     {
         for($i = 0, $diff = []; $i < count($this->input); $i++) {
             if (array_key_exists($i + 1, $this->input)) {
@@ -25,7 +25,7 @@ class Day10 extends Day
         return array_product(array_count_values($diff));
     }
 
-    protected function part2()
+    protected function part2(): int
     {
         for ($i = 1, $d = [1]; $i < count($this->input); $i++) {
             for ($k = 0, $j = $i - 3; $j < $i; $j++) {
@@ -38,12 +38,12 @@ class Day10 extends Day
         return max($d);
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }

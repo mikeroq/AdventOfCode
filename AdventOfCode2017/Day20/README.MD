@@ -28,3 +28,6 @@ p=&lt;-8,0,0&gt;, v=&lt;-6,0,0&gt;, a=&lt;-2,0,0&gt;                         (0)
 </article>
 
 <form method="post" action="20/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>Not completed</code></pre>
+<pre><code>Not completed</code></pre>

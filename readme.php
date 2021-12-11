@@ -32,7 +32,6 @@ foreach ($json->completed as $year => $days) {
             $dayReadme .= trim(str_replace(['<em', '</em>', '<p class="day-success">', '**</p>'], ['<b','</b>', '<p class="day-success"><b>', '🌟🌟</b></p>'], $crawler->filter('main')->html()));
             if ($parts->part1 == true && $parts->part2 == true)
             {
-                $dayReadme .= "\n<h2>--- Results ---</h2>\n<pre><code>$output</code></pre>";
                 if (file_exists("$pathSelector/results.txt")) {
                     $output = file_get_contents("$pathSelector/results.txt");
                 } else {
@@ -41,15 +40,20 @@ foreach ($json->completed as $year => $days) {
                 }
 
                 if (file_exists("$pathSelector/test_results.txt")) {
-                    $output = file_get_contents("$pathSelector/test_results.txt");
+                    $testOutput = file_get_contents("$pathSelector/test_results.txt");
                 } else {
-                    $output = shell_exec("php cli.php test --year $year --day " . sprintf("%02d", $day));
+                    $testOutput = shell_exec("php cli.php test --year $year --day " . sprintf("%02d", $day));
                     file_put_contents("$pathSelector/test_results.txt", $output);
                 }
-                $dayReadme .= "\n<pre><code>$output</code></pre>";
+
             } else {
                 $output = "Not completed";
+                $testOutput = "Not completed";
+                unlink("$pathSelector/results.txt");
+                unlink("$pathSelector/test_results.txt");
             }
+            $dayReadme .= "\n<h2>--- Results ---</h2>\n<pre><code>$output</code></pre>";
+            $dayReadme .= "\n<pre><code>$testOutput</code></pre>";
 
             file_put_contents("$pathSelector/README.MD", $dayReadme);
             $dayReadme = "";

@@ -21,3 +21,6 @@ O =&gt; HH
 </article>
 
 <form method="post" action="19/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>Not completed</code></pre>
+<pre><code>Not completed</code></pre>

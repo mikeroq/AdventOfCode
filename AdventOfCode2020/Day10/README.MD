@@ -117,11 +117,8 @@
 </article>
 <p>Your puzzle answer was <code>1973822685184</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2020 DAY Day09 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-
-Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day09\Day09::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day09\Day09.php on line 65
+<pre><code>
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day10\Day10::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day10\Day10.php on line 41
 </code></pre>
 <pre><code>*** TESTING 2020 DAY Day10 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

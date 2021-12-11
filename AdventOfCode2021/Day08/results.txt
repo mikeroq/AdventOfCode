@@ -1,0 +1,10 @@
+2021 Day08 - First Answer: 390
+
+Fatal error: Uncaught TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
+Stack trace:
+#0 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(100): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findNumbers(Array)
+#1 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(113): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->doPart2()
+#2 C:\Code\AdventOfCode\Shared\Advent.php(18): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findSecondAnswer()
+#3 C:\Code\AdventOfCode\cli.php(28): mikeroq\AdventOfCode\Shared\Advent->runDay(2021, Object(mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08))
+#4 {main}
+  thrown in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php on line 71

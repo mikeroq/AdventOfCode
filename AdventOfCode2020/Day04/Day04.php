@@ -29,7 +29,7 @@ class Day04 extends Day
         }
     }
 
-    protected function part1()
+    protected function part1(): int
     {
         $valid = 0;
         foreach ($this->input as $passport) {
@@ -40,7 +40,7 @@ class Day04 extends Day
         }
         return $valid;
     }
-    protected function checkRules($item)
+    protected function checkRules($item): bool
     {
         $rules = [
             'byr' => "/(19)[2-9]{1}\d|(200)[0-2]{1}/", // 1920-2002
@@ -60,7 +60,7 @@ class Day04 extends Day
         }
         return true;
     }
-    protected function part2()
+    protected function part2(): int
     {
         if (empty($this->valid)) {
             $this->part1();
@@ -74,12 +74,12 @@ class Day04 extends Day
         return $valid;
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }

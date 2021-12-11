@@ -1,0 +1,9 @@
+*** TESTING 2021 DAY Day09 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day09 (mikeroq\AdventOfCode\AdventOfCode2021\Day09\Day09)
+ ✔ Part 1 example equals 15
+
+Time: 00:00.016, Memory: 4.00 MB
+
+OK (1 test, 1 assertion)

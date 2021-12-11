@@ -58,11 +58,8 @@
 </article>
 <p>Your puzzle answer was <code>1666768320</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2020 DAY Day02 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-
-Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day02\Day02::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day02\Day02.php on line 53
+<pre><code>
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day03\Day03::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day03\Day03.php on line 30
 </code></pre>
 <pre><code>*** TESTING 2020 DAY Day03 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

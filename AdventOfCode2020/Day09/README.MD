@@ -69,43 +69,8 @@
 </article>
 <p>Your puzzle answer was <code>36981213</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2020 DAY Day08 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day08 (mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day08)
- ✘ Part 1 test input equals 5
-   │
-   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
-   │
-   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:10
-   │
-
- ✘ Part 2 test input equals 8
-   │
-   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
-   │
-   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:18
-   │
-
- ✘ Part 1 equals real answer 1594
-   │
-   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
-   │
-   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:27
-   │
-
- ✘ Part 2 equals real answer 758
-   │
-   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
-   │
-   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:35
-   │
-
-Time: 00:00.027, Memory: 6.00 MB
-
-
-ERRORS!
-Tests: 4, Assertions: 0, Errors: 4.
+<pre><code>
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day09\Day09::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day09\Day09.php on line 65
 </code></pre>
 <pre><code>*** TESTING 2020 DAY Day09 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

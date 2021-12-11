@@ -14,3 +14,6 @@ Disc #2 has 2 positions; at time=0, it is at position 1.
 </article>
 
 <form method="post" action="15/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>Not completed</code></pre>
+<pre><code>Not completed</code></pre>

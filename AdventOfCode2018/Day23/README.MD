@@ -32,3 +32,6 @@ pos=&lt;1,3,1&gt;, r=1
 </article>
 
 <form method="post" action="23/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>Not completed</code></pre>
+<pre><code>Not completed</code></pre>

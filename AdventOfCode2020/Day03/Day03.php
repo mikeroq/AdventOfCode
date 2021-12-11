@@ -16,7 +16,7 @@ class Day03 extends Day
         $this->input = $new;
     }
 
-    protected function countTrees($right, $down)
+    protected function countTrees($right, $down): int
     {
         $tree = 0;
         for ($x = 0, $y = 0; $y < count($this->input); $x += $right, $y += $down) {
@@ -27,18 +27,14 @@ class Day03 extends Day
         return $tree;
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
-        $match = $this->countTrees(3, 1);
-        if ($match > 0) {
-            return $match;
-        }
-        return false;
+        return $this->countTrees(3, 1);
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
-        $match = array_product(
+        return array_product(
             [
                 $this->countTrees(1, 1),
                 $this->countTrees(3, 1),
@@ -47,9 +43,5 @@ class Day03 extends Day
                 $this->countTrees(1, 2)
             ]
         );
-        if ($match > 0) {
-            return $match;
-        }
-        return false;
     }
 }

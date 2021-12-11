@@ -105,18 +105,16 @@ g    b
 </article>
 <p>Your puzzle answer was <code>1011785</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2021 DAY Day07 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+<pre><code>2021 Day08 - First Answer: 390
 
-Day07 (mikeroq\AdventOfCode\AdventOfCode2021\Day07\Day07)
- ✔ Part 1 example equals 37
- ✔ Part 2 example equals 168
- ✔ Part 1 real answer equals 357353
- ✔ Part 2 example equals 104822130
-
-Time: 00:00.262, Memory: 6.00 MB
-
-OK (4 tests, 4 assertions)
+Fatal error: Uncaught TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
+Stack trace:
+#0 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(100): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findNumbers(Array)
+#1 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(113): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->doPart2()
+#2 C:\Code\AdventOfCode\Shared\Advent.php(18): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findSecondAnswer()
+#3 C:\Code\AdventOfCode\cli.php(28): mikeroq\AdventOfCode\Shared\Advent->runDay(2021, Object(mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08))
+#4 {main}
+  thrown in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php on line 71
 </code></pre>
 <pre><code>*** TESTING 2021 DAY Day08 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

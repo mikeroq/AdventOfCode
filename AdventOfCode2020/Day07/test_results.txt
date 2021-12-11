@@ -1,0 +1,5 @@
+*** TESTING 2020 DAY Day07 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day07\Day07::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day07\Day07.php on line 53

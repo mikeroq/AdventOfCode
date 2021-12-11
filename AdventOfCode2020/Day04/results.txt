@@ -1,0 +1,2 @@
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day04\Day04::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day04\Day04.php on line 77

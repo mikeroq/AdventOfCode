@@ -32,18 +32,9 @@
 </article>
 <p>Your puzzle answer was <code>69</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>*** TESTING 2015 DAY Day04 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day04 (mikeroq\AdventOfCode\AdventOfCode2015\Day04\Day04)
- ✔ Part 1 equals 609043
- ✔ Part 1 equals 1048970
- ✔ Part 1 real answer equals 117946
- ✔ Part 12 real answer equals 3938038
-
-Time: 00:01.797, Memory: 4.00 MB
-
-OK (4 tests, 4 assertions)
+<pre><code>2015 Day05 - First Answer: 238
+2015 Day05 - Second Answer: 69
+2015 Day05 - Execution finished in 0.0026719570159912 seconds.
 </code></pre>
 <pre><code>*** TESTING 2015 DAY Day05 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

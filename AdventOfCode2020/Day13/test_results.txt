@@ -1,0 +1,25 @@
+*** TESTING 2020 DAY Day13 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day13 (mikeroq\AdventOfCode\AdventOfCode2020\Day13\Day13)
+ ✘ Part 1 equals 0
+   │
+   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2020\Day13\Day13::findFirstAnswer(): Return value must be of type int, none returned
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day13\Day13.php:17
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day13\Day13Test.php:14
+   │
+
+ ✘ Part 2 equals 0
+   │
+   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2020\Day13\Day13::findSecondAnswer(): Return value must be of type int, none returned
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day13\Day13.php:22
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day13\Day13Test.php:22
+   │
+
+Time: 00:00.024, Memory: 6.00 MB
+
+
+ERRORS!
+Tests: 2, Assertions: 0, Errors: 2.

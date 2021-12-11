@@ -8,7 +8,7 @@ final class Day06Test extends TestCase
     public function testPart1TestInputEquals11(): void
     {
         $Day06 = new Day06();
-        $Day06->importInput('./advent/Day06/test_input.txt');
+        $Day06->importInput('AdventOfCode2020/Day06/test_input.txt');
 
         $this->assertSame(11, $Day06->findFirstAnswer());
     }
@@ -16,7 +16,7 @@ final class Day06Test extends TestCase
     public function testPart2TestInputEquals6(): void
     {
         $Day06 = new Day06();
-        $Day06->importInput('./advent/Day06/test_input.txt');
+        $Day06->importInput('AdventOfCode2020/Day06/test_input.txt');
 
         $this->assertSame(6, $Day06->findSecondAnswer());
     }
@@ -25,7 +25,7 @@ final class Day06Test extends TestCase
     public function testPart1EqualsRealAnswer6612(): void
     {
         $Day06 = new Day06();
-        $Day06->importInput('./advent/Day06/input.txt');
+        $Day06->importInput('AdventOfCode2020/Day06/input.txt');
 
         $this->assertSame(6612, $Day06->findFirstAnswer());
     }
@@ -33,7 +33,7 @@ final class Day06Test extends TestCase
     public function testPart2EqualsRealAnswer3268(): void
     {
         $Day06 = new Day06();
-        $Day06->importInput('./advent/Day06/input.txt');
+        $Day06->importInput('AdventOfCode2020/Day06/input.txt');
 
         $this->assertSame(3268, $Day06->findSecondAnswer());
     }

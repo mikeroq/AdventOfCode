@@ -16,7 +16,7 @@ class Day06 extends Day
 
     }
 
-    protected function part1()
+    protected function part1(): int
     {
         foreach ($this->input as $answer) {
             $answer = str_replace("\r\n", '', $answer);
@@ -25,7 +25,7 @@ class Day06 extends Day
         return array_sum($this->answersCount);
     }
 
-    protected function part2()
+    protected function part2(): int
     {
         foreach ($this->input as $answer) {
             // input is an array, each element in array is the lines in the group as a single string
@@ -51,12 +51,12 @@ class Day06 extends Day
         return array_sum($this->answers);
     }
 
-    public function findFirstAnswer()
+    public function findFirstAnswer(): int
     {
         return $this->part1();
     }
 
-    public function findSecondAnswer()
+    public function findSecondAnswer(): int
     {
         return $this->part2();
     }
