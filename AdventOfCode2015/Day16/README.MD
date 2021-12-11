@@ -1,0 +1,46 @@
+<article class="day-desc"><h2>--- Day 16: Aunt Sue ---</h2><p>Your Aunt Sue has given you a wonderful gift, and you'd like to send her a thank you card.  However, there's a small problem: she signed it "From, Aunt Sue".</p>
+<p>You have 500 Aunts named "Sue".</p>
+<p>So, to avoid sending the card to the wrong person, you need to figure out which Aunt Sue (which you conveniently number 1 to 500, for sanity) gave you the gift.  You open the present and, as luck would have it, good ol' Aunt Sue got you a My First Crime Scene Analysis Machine!  Just what you wanted.  Or needed, as the case may be.</p>
+<p>The My First Crime Scene Analysis Machine (MFCSAM for short) can detect a few specific compounds in a given sample, as well as how many distinct kinds of those compounds there are. According to the instructions, these are what the MFCSAM can detect:</p>
+<ul>
+<li><code>children</code>, by human DNA age analysis.</li>
+<li><code>cats</code>.  It doesn't differentiate individual breeds.</li>
+<li>Several <span title="It can tell them apart by their distinct Dog Residue.">seemingly random breeds of dog</span>: <code><a href="https://en.wikipedia.org/wiki/Samoyed_%28dog%29">samoyeds</a></code>, <code><a href="https://en.wikipedia.org/wiki/Pomeranian_%28dog%29">pomeranians</a></code>, <code><a href="https://en.wikipedia.org/wiki/Akita_%28dog%29">akitas</a></code>, and <code><a href="https://en.wikipedia.org/wiki/Vizsla">vizslas</a></code>.</li>
+<li><code>goldfish</code>.  No other kinds of fish.</li>
+<li><code>trees</code>, all in one group.</li>
+<li><code>cars</code>, presumably by exhaust or gasoline or something.</li>
+<li><code>perfumes</code>, which is handy, since many of your Aunts Sue wear a few kinds.</li>
+</ul>
+<p>In fact, many of your Aunts Sue have many of these.  You put the wrapping from the gift into the MFCSAM.  It beeps inquisitively at you a few times and then prints out a message on <a href="https://en.wikipedia.org/wiki/Ticker_tape">ticker tape</a>:</p>
+<pre><code>children: 3
+cats: 7
+samoyeds: 2
+pomeranians: 3
+akitas: 0
+vizslas: 0
+goldfish: 5
+trees: 3
+cars: 2
+perfumes: 1
+</code></pre>
+
+
+</article>
+
+<form method="post" action="16/answer"><input type="hidden" name="level" value="1"></form>
+<h2>--- Results ---</h2>
+<pre><code>2015 Day16 - First Answer: 0
+2015 Day16 - Second Answer: 0
+2015 Day16 - Execution finished in 0.00081014633178711 seconds.
+</code></pre>
+<pre><code>*** TESTING 2015 DAY Day16 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day16 (mikeroq\AdventOfCode\AdventOfCode2015\Day16\Day16)
+ ✔ Part 1 equals 0
+ ✔ Part 2 equals 0
+
+Time: 00:00.008, Memory: 4.00 MB
+
+OK (2 tests, 2 assertions)
+</code></pre>

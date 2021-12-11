@@ -1,33 +1,95 @@
-# Advent Of Code 2021
-
-Here are my Advent Of Code 2021 solutions, written in PHP. 
-
-# Progress
-
-| Day  | Part One | Part Two | 
-|---|:---:|:---:|
-| ✅ [Day 1: Sonar Sweep](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01)| ✨ | ✨ |
-| ✅ [Day 2: Dive!](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day02)| ✨ | ✨ |
-| ✅ [Day 3: Binary Diagnostic](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day03)| ✨ | ✨ |
-| ✅ [Day 4: Giant Squid](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day04)| ✨ | ✨ |
-| ✅ [Day 5: Hydrothermal Venture](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day05)| ✨ | ✨ |
-| ✅ [Day 6: Lanternfish](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day06)| ✨ | ✨ |
-| ✅ [Day 7: The Treachery of Whales](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day07)| ✨ | ✨ |
-| ⌚ [Day 8: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day08)| | |
-| ⌚ [Day 9: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day09)| | |
-| ⌚ [Day 10: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day10)| | |
-| ⌚ [Day 11: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day11)| | |
-| ⌚ [Day 12: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day12)| | |
-| ⌚ [Day 13: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day13)| | |
-| ⌚ [Day 14: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day14)| | |
-| ⌚ [Day 15: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day15)| | |
-| ⌚ [Day 16: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day16)| | |
-| ⌚ [Day 17: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day17)| | |
-| ⌚ [Day 18: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day18)| | |
-| ⌚ [Day 19: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day19)| | |
-| ⌚ [Day 20: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day20)| | |
-| ⌚ [Day 21: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day21)| | |
-| ⌚ [Day 22: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day22)| | |
-| ⌚ [Day 23: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day23)| | |
-| ⌚ [Day 24: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day24)| | |
-| ⌚ [Day 25: TBD](https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day25)| | |
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2" colspan="2">Year</th>
+            <th colspan="2">Progress</th>
+            <th>Stars</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">2021</td>
+            <td>Part 1</td>
+            <td><a title="Day 1" href="https://github.com/mikeroq/adventofcode2021/tree/master/advent/Day01">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>7/25</td>
+            <td rowspan="2" align="center">14/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>✅✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>7/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2020</td>
+            <td>Part 1</td>
+            <td>✅✅✅✅✅✅✅✅✅✅⬛✅✅✅⬛✅⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>14/25</td>
+            <td rowspan="2" align="center">26/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>✅✅✅✅✅✅✅✅✅✅⬛✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>12/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2019</td>
+            <td>Part 1</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+            <td rowspan="2" align="center">0/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2018</td>
+            <td>Part 1</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+            <td rowspan="2" align="center">0/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2017</td>
+            <td>Part 1</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+            <td rowspan="2" align="center">0/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2016</td>
+            <td>Part 1</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+            <td rowspan="2" align="center">0/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>0/25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2015</td>
+            <td>Part 1</td>
+            <td>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>6/25</td>
+            <td rowspan="2" align="center">12/50<br />✨</td>
+        </tr>
+        <tr>
+            <td>Part 2</td>
+            <td>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>6/25</td>
+        </tr>
+    </tbody>
+</table>

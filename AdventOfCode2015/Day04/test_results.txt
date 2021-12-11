@@ -1,0 +1,12 @@
+*** TESTING 2015 DAY Day04 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day04 (mikeroq\AdventOfCode\AdventOfCode2015\Day04\Day04)
+ ✔ Part 1 equals 609043
+ ✔ Part 1 equals 1048970
+ ✔ Part 1 real answer equals 117946
+ ✔ Part 12 real answer equals 3938038
+
+Time: 00:01.797, Memory: 4.00 MB
+
+OK (4 tests, 4 assertions)

@@ -1,0 +1,718 @@
+{
+  "completed": {
+    "2015": {
+      "1": {
+        "part1": true,
+        "part2": true
+      },
+      "2": {
+        "part1": true,
+        "part2": true
+      },
+      "3": {
+        "part1": true,
+        "part2": true
+      },
+      "4": {
+        "part1": true,
+        "part2": true
+      },
+      "5": {
+        "part1": true,
+        "part2": true
+      },
+      "6": {
+        "part1": true,
+        "part2": true
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2016": {
+      "1": {
+        "part1": false,
+        "part2": false
+      },
+      "2": {
+        "part1": false,
+        "part2": false
+      },
+      "3": {
+        "part1": false,
+        "part2": false
+      },
+      "4": {
+        "part1": false,
+        "part2": false
+      },
+      "5": {
+        "part1": false,
+        "part2": false
+      },
+      "6": {
+        "part1": false,
+        "part2": false
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2017": {
+      "1": {
+        "part1": false,
+        "part2": false
+      },
+      "2": {
+        "part1": false,
+        "part2": false
+      },
+      "3": {
+        "part1": false,
+        "part2": false
+      },
+      "4": {
+        "part1": false,
+        "part2": false
+      },
+      "5": {
+        "part1": false,
+        "part2": false
+      },
+      "6": {
+        "part1": false,
+        "part2": false
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2018": {
+      "1": {
+        "part1": false,
+        "part2": false
+      },
+      "2": {
+        "part1": false,
+        "part2": false
+      },
+      "3": {
+        "part1": false,
+        "part2": false
+      },
+      "4": {
+        "part1": false,
+        "part2": false
+      },
+      "5": {
+        "part1": false,
+        "part2": false
+      },
+      "6": {
+        "part1": false,
+        "part2": false
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2019": {
+      "1": {
+        "part1": false,
+        "part2": false
+      },
+      "2": {
+        "part1": false,
+        "part2": false
+      },
+      "3": {
+        "part1": false,
+        "part2": false
+      },
+      "4": {
+        "part1": false,
+        "part2": false
+      },
+      "5": {
+        "part1": false,
+        "part2": false
+      },
+      "6": {
+        "part1": false,
+        "part2": false
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2020": {
+      "1": {
+        "part1": true,
+        "part2": true
+      },
+      "2": {
+        "part1": true,
+        "part2": true
+      },
+      "3": {
+        "part1": true,
+        "part2": true
+      },
+      "4": {
+        "part1": true,
+        "part2": true
+      },
+      "5": {
+        "part1": true,
+        "part2": true
+      },
+      "6": {
+        "part1": true,
+        "part2": true
+      },
+      "7": {
+        "part1": true,
+        "part2": true
+      },
+      "8": {
+        "part1": true,
+        "part2": true
+      },
+      "9": {
+        "part1": true,
+        "part2": true
+      },
+      "10": {
+        "part1": true,
+        "part2": true
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": true,
+        "part2": true
+      },
+      "13": {
+        "part1": true,
+        "part2": true
+      },
+      "14": {
+        "part1": true,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": true,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    },
+    "2021": {
+      "1": {
+        "part1": false,
+        "part2": false
+      },
+      "2": {
+        "part1": false,
+        "part2": false
+      },
+      "3": {
+        "part1": false,
+        "part2": false
+      },
+      "4": {
+        "part1": false,
+        "part2": false
+      },
+      "5": {
+        "part1": false,
+        "part2": false
+      },
+      "6": {
+        "part1": false,
+        "part2": false
+      },
+      "7": {
+        "part1": false,
+        "part2": false
+      },
+      "8": {
+        "part1": false,
+        "part2": false
+      },
+      "9": {
+        "part1": false,
+        "part2": false
+      },
+      "10": {
+        "part1": false,
+        "part2": false
+      },
+      "11": {
+        "part1": false,
+        "part2": false
+      },
+      "12": {
+        "part1": false,
+        "part2": false
+      },
+      "13": {
+        "part1": false,
+        "part2": false
+      },
+      "14": {
+        "part1": false,
+        "part2": false
+      },
+      "15": {
+        "part1": false,
+        "part2": false
+      },
+      "16": {
+        "part1": false,
+        "part2": false
+      },
+      "17": {
+        "part1": false,
+        "part2": false
+      },
+      "18": {
+        "part1": false,
+        "part2": false
+      },
+      "19": {
+        "part1": false,
+        "part2": false
+      },
+      "20": {
+        "part1": false,
+        "part2": false
+      },
+      "21": {
+        "part1": false,
+        "part2": false
+      },
+      "22": {
+        "part1": false,
+        "part2": false
+      },
+      "23": {
+        "part1": false,
+        "part2": false
+      },
+      "24": {
+        "part1": false,
+        "part2": false
+      },
+      "25": {
+        "part1": false,
+        "part2": false
+      }
+    }
+  }
+}

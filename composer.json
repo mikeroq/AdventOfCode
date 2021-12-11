@@ -1,22 +1,25 @@
 {
-    "name": "pwnstar/adventofcode2021",
-    "description": "Advent of Code 2021 Solutions",
+    "name": "mikeroq/adventofcode",
+    "description": "Advent of Code solutions",
     "type": "project",
     "license": "Apache 2.0",
     "authors": [
         {
-            "name": "pwnstar",
+            "name": "mikeroq",
             "email": "mikeroq@gmail.com"
         }
     ],    
     "require": {
         "symfony/var-dumper": "^5.2",
         "phpunit/phpunit": "^9.4",
-        "vanilla/garden-cli": "^3.1"
+        "vanilla/garden-cli": "^3.1",
+      "ext-curl": "*",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0"
     },
     "autoload": {
 		"psr-4": {
-            "pwnstar\\AdventOfCode2021\\": "advent/"
+            "mikeroq\\AdventOfCode\\": ""
         }
     }
 }

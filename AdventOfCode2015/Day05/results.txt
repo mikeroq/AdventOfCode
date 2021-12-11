@@ -1,0 +1,3 @@
+2015 Day05 - First Answer: 238
+2015 Day05 - Second Answer: 69
+2015 Day05 - Execution finished in 0.0026719570159912 seconds.

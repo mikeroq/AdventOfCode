@@ -1,8 +1,8 @@
 <?php
 
-namespace pwnstar\AdventOfCode%YEAR%\Day%DAY%;
+namespace mikeroq\AdventOfCode%YEAR%\Day%DAY%;
 
-use pwnstar\AdventOfCode%YEAR%\Day;
+use mikeroq\AdventOfCode%YEAR%\Day;
 
 class Day%DAY% extends Day
 {

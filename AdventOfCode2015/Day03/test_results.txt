@@ -1,0 +1,13 @@
+*** TESTING 2015 DAY Day03 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day03 (mikeroq\AdventOfCode\AdventOfCode2015\Day03\Day03)
+ ✔ Part 1 first example equals 2
+ ✔ Part 1 second example equals 4
+ ✔ Part 1 third example equals 2
+ ✔ Part 2 second example equals 3
+ ✔ Part 2 third example equals 11
+
+Time: 00:00.009, Memory: 4.00 MB
+
+OK (5 tests, 5 assertions)
