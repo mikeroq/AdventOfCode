@@ -22,19 +22,3 @@ House 9 got 130 presents.
 </article>
 
 <form method="post" action="20/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day20 - First Answer: 0
-2015 Day20 - Second Answer: 0
-2015 Day20 - Execution finished in 0.00082015991210938 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day20 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day20 (mikeroq\AdventOfCode\AdventOfCode2015\Day20\Day20)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

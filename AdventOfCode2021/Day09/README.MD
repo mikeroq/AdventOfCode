@@ -49,17 +49,46 @@
 </article>
 <p>Your puzzle answer was <code>1564640</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day09 - First Answer: 508
-Day09 - Second Answer: 0
-Day09 - Execution finished in 0.0093529224395752 seconds.
+<pre><code>*** TESTING 2021 DAY Day08 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day08 (mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08)
+ ✔ Part 1 example equals 26
+ ✘ Part 2 example equals 61229
+   │
+   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:100
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:113
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08Test.php:21
+   │
+
+Time: 00:00.033, Memory: 6.00 MB
+
+Summary of non-successful tests:
+
+Day08 (mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08)
+ ✘ Part 2 example equals 61229
+   │
+   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:100
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:113
+   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08Test.php:21
+   │
+
+ERRORS!
+Tests: 2, Assertions: 1, Errors: 1.
 </code></pre>
-<pre><code>*** TESTING DAY Day09 ***
+<pre><code>*** TESTING 2021 DAY Day09 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day09 (mikeroq\AdventOfCode\AdventOfCode2021\Day09\Day09)
  ✔ Part 1 example equals 15
 
-Time: 00:00.008, Memory: 4.00 MB
+Time: 00:00.016, Memory: 4.00 MB
 
 OK (1 test, 1 assertion)
 </code></pre>

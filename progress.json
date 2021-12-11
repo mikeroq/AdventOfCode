@@ -614,44 +614,44 @@
     },
     "2021": {
       "1": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "2": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "3": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "4": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "5": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "6": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "7": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "8": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "9": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "10": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "11": {
         "part1": false,

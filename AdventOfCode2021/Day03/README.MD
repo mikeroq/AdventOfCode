@@ -55,11 +55,20 @@
 </article>
 <p>Your puzzle answer was <code>3385170</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day03 - First Answer: 3882564
-Day03 - Second Answer: 3385170
-Day03 - Execution finished in 0.0026481151580811 seconds.
+<pre><code>*** TESTING 2021 DAY Day02 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day02 (mikeroq\AdventOfCode\AdventOfCode2021\Day02\Day02)
+ ✔ Part 1 example equals 150
+ ✔ Part 2 example equals 900
+ ✔ Part 1 real answer equals 1488669
+ ✔ Part 2 real answer equals 1176514794
+
+Time: 00:00.010, Memory: 4.00 MB
+
+OK (4 tests, 4 assertions)
 </code></pre>
-<pre><code>*** TESTING DAY Day03 ***
+<pre><code>*** TESTING 2021 DAY Day03 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day03 (mikeroq\AdventOfCode\AdventOfCode2021\Day03\Day03)
@@ -68,7 +77,7 @@ Day03 (mikeroq\AdventOfCode\AdventOfCode2021\Day03\Day03)
  ✔ Part 1 real answer equals 3882564
  ✔ Part 2 real answer equals 3385170
 
-Time: 00:00.010, Memory: 6.00 MB
+Time: 00:00.014, Memory: 6.00 MB
 
 OK (4 tests, 4 assertions)
 </code></pre>

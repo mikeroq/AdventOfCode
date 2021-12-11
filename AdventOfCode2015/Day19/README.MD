@@ -21,19 +21,3 @@ O =&gt; HH
 </article>
 
 <form method="post" action="19/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day19 - First Answer: 0
-2015 Day19 - Second Answer: 0
-2015 Day19 - Execution finished in 0.00089502334594727 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day19 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day19 (mikeroq\AdventOfCode\AdventOfCode2015\Day19\Day19)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

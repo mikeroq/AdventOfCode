@@ -65,47 +65,47 @@ acc +6  | 6
 </article>
 <p>Your puzzle answer was <code>758</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day08 - First Answer: 390
-
-Fatal error: Uncaught TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
-Stack trace:
-#0 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(100): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findNumbers(Array)
-#1 C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php(113): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->doPart2()
-#2 C:\Code\AdventOfCode\Shared\Advent.php(18): mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08->findSecondAnswer()
-#3 C:\Code\AdventOfCode\cli.php(26): mikeroq\AdventOfCode\Shared\Advent->runDay(Object(mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08))
-#4 {main}
-  thrown in C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php on line 71
-</code></pre>
-<pre><code>*** TESTING DAY Day08 ***
+<pre><code>*** TESTING 2020 DAY Day07 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-Day08 (mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08)
- ✔ Part 1 example equals 26
- ✘ Part 2 example equals 61229
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day07\Day07::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day07\Day07.php on line 53
+</code></pre>
+<pre><code>*** TESTING 2020 DAY Day08 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day08 (mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day08)
+ ✘ Part 1 test input equals 5
    │
-   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
    │
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:100
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:113
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08Test.php:21
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:10
    │
 
-Time: 00:00.023, Memory: 6.00 MB
+ ✘ Part 2 test input equals 8
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:18
+   │
 
-Summary of non-successful tests:
+ ✘ Part 1 equals real answer 1594
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:27
+   │
 
-Day08 (mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08)
- ✘ Part 2 example equals 61229
+ ✘ Part 2 equals real answer 758
    │
-   │ TypeError: mikeroq\AdventOfCode\AdventOfCode2021\Day08\Day08::findNumbers(): Return value must be of type int, none returned
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
    │
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:71
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:100
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08.php:113
-   │ C:\Code\AdventOfCode\AdventOfCode2021\Day08\Day08Test.php:21
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:35
    │
+
+Time: 00:00.027, Memory: 6.00 MB
+
 
 ERRORS!
-Tests: 2, Assertions: 1, Errors: 1.
+Tests: 4, Assertions: 0, Errors: 4.
 </code></pre>

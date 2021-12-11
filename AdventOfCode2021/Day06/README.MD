@@ -45,11 +45,20 @@ After 18 days: 6,0,6,4,5,6,0,1,1,2,6,0,1,1,1,2,2,3,3,4,6,7,8,8,8,8
 </article>
 <p>Your puzzle answer was <code>1770823541496</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day06 - First Answer: 396210
-Day06 - Second Answer: 1770823541496
-Day06 - Execution finished in 0.00094389915466309 seconds.
+<pre><code>*** TESTING 2021 DAY Day05 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day05 (mikeroq\AdventOfCode\AdventOfCode2021\Day05\Day05)
+ ✔ Part 1 example equals 5
+ ✔ Part 1 real answer equals 7473
+ ✔ Part 2 example equals 12
+ ✔ Part 2 real answer equals 24164
+
+Time: 00:00.117, Memory: 20.00 MB
+
+OK (4 tests, 4 assertions)
 </code></pre>
-<pre><code>*** TESTING DAY Day06 ***
+<pre><code>*** TESTING 2021 DAY Day06 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day06 (mikeroq\AdventOfCode\AdventOfCode2021\Day06\Day06)
@@ -58,7 +67,7 @@ Day06 (mikeroq\AdventOfCode\AdventOfCode2021\Day06\Day06)
  ✔ Part 1 real answer equals 396210
  ✔ Part 2 real answer equals 1770823541496
 
-Time: 00:00.008, Memory: 4.00 MB
+Time: 00:00.009, Memory: 4.00 MB
 
 OK (4 tests, 4 assertions)
 </code></pre>

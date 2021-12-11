@@ -1,8 +1,8 @@
 <?php
 
-namespace mikeroq\AdventOfCode%YEAR%\Day%DAY%;
+namespace mikeroq\AdventOfCode\AdventOfCode%YEAR%\Day%DAY%;
 
-use mikeroq\AdventOfCode%YEAR%\Day;
+use mikeroq\AdventOfCode\Shared\Day;
 
 class Day%DAY% extends Day
 {

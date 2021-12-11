@@ -24,10 +24,7 @@
 </article>
 <p>Your puzzle answer was <code>1795</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>2015 Day01 - First Answer: 74
-2015 Day01 - Second Answer: 1795
-2015 Day01 - Execution finished in 0.0025238990783691 seconds.
-</code></pre>
+<pre><code></code></pre>
 <pre><code>*** TESTING 2015 DAY Day01 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 

@@ -56,11 +56,20 @@
 </article>
 <p>Your puzzle answer was <code>24164</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day05 - First Answer: 7473
-Day05 - Second Answer: 24164
-Day05 - Execution finished in 0.10397696495056 seconds.
+<pre><code>*** TESTING 2021 DAY Day04 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day04 (mikeroq\AdventOfCode\AdventOfCode2021\Day04\Day04)
+ ✔ Part 1 example equals 4512
+ ✔ Part 2 example equals 1924
+ ✔ Part 1 real answer equals 10680
+ ✔ Part 2 real answer equals 31892
+
+Time: 00:00.074, Memory: 6.00 MB
+
+OK (4 tests, 4 assertions)
 </code></pre>
-<pre><code>*** TESTING DAY Day05 ***
+<pre><code>*** TESTING 2021 DAY Day05 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day05 (mikeroq\AdventOfCode\AdventOfCode2021\Day05\Day05)
@@ -69,7 +78,7 @@ Day05 (mikeroq\AdventOfCode\AdventOfCode2021\Day05\Day05)
  ✔ Part 2 example equals 12
  ✔ Part 2 real answer equals 24164
 
-Time: 00:00.108, Memory: 20.00 MB
+Time: 00:00.117, Memory: 20.00 MB
 
 OK (4 tests, 4 assertions)
 </code></pre>

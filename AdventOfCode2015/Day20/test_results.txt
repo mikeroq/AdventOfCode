@@ -1,0 +1,10 @@
+*** TESTING 2015 DAY Day20 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day20 (mikeroq\AdventOfCode\AdventOfCode2015\Day20\Day20)
+ ✔ Part 1 equals 0
+ ✔ Part 2 equals 0
+
+Time: 00:00.008, Memory: 4.00 MB
+
+OK (2 tests, 2 assertions)

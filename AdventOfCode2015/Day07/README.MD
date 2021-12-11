@@ -33,19 +33,3 @@ y: 456
 </article>
 
 <form method="post" action="7/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day07 - First Answer: 0
-2015 Day07 - Second Answer: 0
-2015 Day07 - Execution finished in 0.0010550022125244 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day07 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day07 (mikeroq\AdventOfCode\AdventOfCode2015\Day07\Day07)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

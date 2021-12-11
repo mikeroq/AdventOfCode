@@ -14,19 +14,3 @@
 </article>
 
 <form method="post" action="8/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day08 - First Answer: 0
-2015 Day08 - Second Answer: 0
-2015 Day08 - Execution finished in 0.00081419944763184 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day08 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day08 (mikeroq\AdventOfCode\AdventOfCode2015\Day08\Day08)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

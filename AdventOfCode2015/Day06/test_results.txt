@@ -1,0 +1,12 @@
+*** TESTING 2015 DAY Day06 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day06 (mikeroq\AdventOfCode\AdventOfCode2015\Day06\Day06)
+ ✔ Part 1 example lights on equals 998996
+ ✔ Part 2 example light brightness total equals 2000001
+ ✔ Part 1 real answer equals 400410
+ ✔ Part 2 real answer equals 15343601
+
+Time: 00:06.793, Memory: 44.00 MB
+
+OK (4 tests, 4 assertions)

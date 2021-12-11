@@ -47,20 +47,15 @@ dark violet bags contain no other bags.
 </article>
 <p>Your puzzle answer was <code>38426</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day07 - First Answer: 357353
-Day07 - Second Answer: 104822130
-Day07 - Execution finished in 0.2341091632843 seconds.
-</code></pre>
-<pre><code>*** TESTING DAY Day07 ***
+<pre><code>*** TESTING 2020 DAY Day06 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-Day07 (mikeroq\AdventOfCode\AdventOfCode2021\Day07\Day07)
- ✔ Part 1 example equals 37
- ✔ Part 2 example equals 168
- ✔ Part 1 real answer equals 357353
- ✔ Part 2 example equals 104822130
 
-Time: 00:00.241, Memory: 4.00 MB
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day06\Day06::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day06\Day06.php on line 54
+</code></pre>
+<pre><code>*** TESTING 2020 DAY Day07 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-OK (4 tests, 4 assertions)
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day07\Day07::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day07\Day07.php on line 53
 </code></pre>

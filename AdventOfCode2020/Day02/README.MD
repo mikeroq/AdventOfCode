@@ -24,20 +24,15 @@
 </article>
 <p>Your puzzle answer was <code>284</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day02 - First Answer: 1488669
-Day02 - Second Answer: 1176514794
-Day02 - Execution finished in 0.0020718574523926 seconds.
-</code></pre>
-<pre><code>*** TESTING DAY Day02 ***
+<pre><code>*** TESTING 2020 DAY Day01 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-Day02 (mikeroq\AdventOfCode\AdventOfCode2021\Day02\Day02)
- ✔ Part 1 example equals 150
- ✔ Part 2 example equals 900
- ✔ Part 1 real answer equals 1488669
- ✔ Part 2 real answer equals 1176514794
 
-Time: 00:00.010, Memory: 4.00 MB
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day01\Day01::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day01\Day01.php on line 67
+</code></pre>
+<pre><code>*** TESTING 2020 DAY Day02 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-OK (4 tests, 4 assertions)
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day02\Day02::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day02\Day02.php on line 53
 </code></pre>

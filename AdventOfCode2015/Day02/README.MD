@@ -18,9 +18,19 @@
 </article>
 <p>Your puzzle answer was <code>3812909</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>2015 Day02 - First Answer: 1598415
-2015 Day02 - Second Answer: 3812909
-2015 Day02 - Execution finished in 0.0022399425506592 seconds.
+<pre><code>*** TESTING 2015 DAY Day01 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day01 (mikeroq\AdventOfCode\AdventOfCode2015\Day01\Day01)
+ ✔ Part 1 example five equals 3
+ ✔ Part 1 example three equals negative 3
+ ✔ Part 1 example one equals 0
+ ✔ Part 2 example one character equals 1
+ ✔ Part 2 example two character equals 5
+
+Time: 00:00.008, Memory: 4.00 MB
+
+OK (5 tests, 5 assertions)
 </code></pre>
 <pre><code>*** TESTING 2015 DAY Day02 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

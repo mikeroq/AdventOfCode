@@ -24,19 +24,3 @@ Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3
 </article>
 
 <form method="post" action="15/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day15 - First Answer: 0
-2015 Day15 - Second Answer: 0
-2015 Day15 - Execution finished in 0.00078201293945312 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day15 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day15 (mikeroq\AdventOfCode\AdventOfCode2015\Day15\Day15)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

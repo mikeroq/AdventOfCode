@@ -51,11 +51,20 @@ forward 2
 </article>
 <p>Your puzzle answer was <code>1176514794</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day02 - First Answer: 1488669
-Day02 - Second Answer: 1176514794
-Day02 - Execution finished in 0.002187967300415 seconds.
+<pre><code>*** TESTING 2021 DAY Day01 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day01 (mikeroq\AdventOfCode\AdventOfCode2021\Day01\Day01)
+ ✔ Part 1 example equals 7
+ ✔ Part 2 example equals 5
+ ✔ Part 1 real answer equals 1713
+ ✔ Part 2 real answer equals 1734
+
+Time: 00:00.010, Memory: 6.00 MB
+
+OK (4 tests, 4 assertions)
 </code></pre>
-<pre><code>*** TESTING DAY Day02 ***
+<pre><code>*** TESTING 2021 DAY Day02 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day02 (mikeroq\AdventOfCode\AdventOfCode2021\Day02\Day02)

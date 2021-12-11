@@ -69,17 +69,47 @@
 </article>
 <p>Your puzzle answer was <code>36981213</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day09 - First Answer: 508
-Day09 - Second Answer: 0
-Day09 - Execution finished in 0.0095250606536865 seconds.
-</code></pre>
-<pre><code>*** TESTING DAY Day09 ***
+<pre><code>*** TESTING 2020 DAY Day08 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-Day09 (mikeroq\AdventOfCode\AdventOfCode2021\Day09\Day09)
- ✔ Part 1 example equals 15
+Day08 (mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day08)
+ ✘ Part 1 test input equals 5
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:10
+   │
 
-Time: 00:00.007, Memory: 4.00 MB
+ ✘ Part 2 test input equals 8
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:18
+   │
 
-OK (1 test, 1 assertion)
+ ✘ Part 1 equals real answer 1594
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:27
+   │
+
+ ✘ Part 2 equals real answer 758
+   │
+   │ Error: Class "mikeroq\AdventOfCode\AdventOfCode2020\Day08\Day09" not found
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2020\Day08\Day08Test.php:35
+   │
+
+Time: 00:00.027, Memory: 6.00 MB
+
+
+ERRORS!
+Tests: 4, Assertions: 0, Errors: 4.
+</code></pre>
+<pre><code>*** TESTING 2020 DAY Day09 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+
+Fatal error: Declaration of mikeroq\AdventOfCode\AdventOfCode2020\Day09\Day09::findFirstAnswer() must be compatible with mikeroq\AdventOfCode\Shared\Day::findFirstAnswer(): int in C:\Code\AdventOfCode\AdventOfCode2020\Day09\Day09.php on line 65
 </code></pre>

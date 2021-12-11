@@ -10,9 +10,19 @@
 </article>
 <p>Your puzzle answer was <code>3938038</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>2015 Day04 - First Answer: 117946
-2015 Day04 - Second Answer: 3938038
-2015 Day04 - Execution finished in 1.3985531330109 seconds.
+<pre><code>*** TESTING 2015 DAY Day03 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day03 (mikeroq\AdventOfCode\AdventOfCode2015\Day03\Day03)
+ ✔ Part 1 first example equals 2
+ ✔ Part 1 second example equals 4
+ ✔ Part 1 third example equals 2
+ ✔ Part 2 second example equals 3
+ ✔ Part 2 third example equals 11
+
+Time: 00:00.009, Memory: 4.00 MB
+
+OK (5 tests, 5 assertions)
 </code></pre>
 <pre><code>*** TESTING 2015 DAY Day04 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

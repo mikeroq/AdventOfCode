@@ -28,19 +28,3 @@ perfumes: 1
 </article>
 
 <form method="post" action="16/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day16 - First Answer: 0
-2015 Day16 - Second Answer: 0
-2015 Day16 - Execution finished in 0.00081014633178711 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day16 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day16 (mikeroq\AdventOfCode\AdventOfCode2015\Day16\Day16)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

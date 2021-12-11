@@ -62,11 +62,8 @@ H: 792 (<b>increased</b>)
 </article>
 <p>Your puzzle answer was <code>1734</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>Day01 - First Answer: 1713
-Day01 - Second Answer: 1734
-Day01 - Execution finished in 0.0017940998077393 seconds.
-</code></pre>
-<pre><code>*** TESTING DAY Day01 ***
+<pre><code>Not completed</code></pre>
+<pre><code>*** TESTING 2021 DAY Day01 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Day01 (mikeroq\AdventOfCode\AdventOfCode2021\Day01\Day01)
@@ -75,7 +72,7 @@ Day01 (mikeroq\AdventOfCode\AdventOfCode2021\Day01\Day01)
  ✔ Part 1 real answer equals 1713
  ✔ Part 2 real answer equals 1734
 
-Time: 00:00.010, Memory: 4.00 MB
+Time: 00:00.010, Memory: 6.00 MB
 
 OK (4 tests, 4 assertions)
 </code></pre>

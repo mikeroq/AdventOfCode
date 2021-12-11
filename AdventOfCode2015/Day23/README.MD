@@ -20,19 +20,3 @@ inc a
 </article>
 
 <form method="post" action="23/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day23 - First Answer: 0
-2015 Day23 - Second Answer: 0
-2015 Day23 - Execution finished in 0.0008690357208252 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day23 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day23 (mikeroq\AdventOfCode\AdventOfCode2015\Day23\Day23)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

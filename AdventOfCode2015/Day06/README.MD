@@ -24,9 +24,16 @@
 </article>
 <p>Your puzzle answer was <code>15343601</code>.</p><p class="day-success"><b>Both parts of this puzzle are complete! They provide two gold stars: 🌟🌟</b></p>
 <h2>--- Results ---</h2>
-<pre><code>2015 Day06 - First Answer: 400410
-2015 Day06 - Second Answer: 15343601
-2015 Day06 - Execution finished in 7.1753160953522 seconds.
+<pre><code>*** TESTING 2015 DAY Day05 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day05 (mikeroq\AdventOfCode\AdventOfCode2015\Day05\Day05)
+ ✔ That two example strings are nice
+ ✔ Part 2 that two example strings are nice
+
+Time: 00:00.008, Memory: 4.00 MB
+
+OK (2 tests, 2 assertions)
 </code></pre>
 <pre><code>*** TESTING 2015 DAY Day06 ***
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.

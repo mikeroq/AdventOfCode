@@ -18,19 +18,3 @@ Belfast -&gt; London -&gt; Dublin = 982
 </article>
 
 <form method="post" action="9/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day09 - First Answer: 0
-2015 Day09 - Second Answer: 0
-2015 Day09 - Execution finished in 0.00081300735473633 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day09 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day09 (mikeroq\AdventOfCode\AdventOfCode2015\Day09\Day09)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>

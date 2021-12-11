@@ -12,19 +12,3 @@
 </article>
 
 <form method="post" action="12/answer"><input type="hidden" name="level" value="1"></form>
-<h2>--- Results ---</h2>
-<pre><code>2015 Day12 - First Answer: 0
-2015 Day12 - Second Answer: 0
-2015 Day12 - Execution finished in 0.00079011917114258 seconds.
-</code></pre>
-<pre><code>*** TESTING 2015 DAY Day12 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day12 (mikeroq\AdventOfCode\AdventOfCode2015\Day12\Day12)
- ✔ Part 1 equals 0
- ✔ Part 2 equals 0
-
-Time: 00:00.008, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
-</code></pre>
