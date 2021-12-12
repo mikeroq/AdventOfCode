@@ -15,7 +15,8 @@
         "vanilla/garden-cli": "^3.1",
       "ext-curl": "*",
         "symfony/dom-crawler": "^6.0",
-        "symfony/css-selector": "^6.0"
+        "symfony/css-selector": "^6.0",
+        "illuminate/collections": "^8.75"
     },
     "autoload": {
 		"psr-4": {

@@ -59,9 +59,9 @@
 <td>✨</td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day11/'>Day 11: TBD</a></td>
-<td></td>
-<td></td>
+<td>✅  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day11/'>Day 11: Dumbo Octopus</a></td>
+<td>✨</td>
+<td>✨</td>
 </tr>
 <tr>
 <td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day12/'>Day 12: TBD</a></td>

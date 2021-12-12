@@ -1,7 +1,7 @@
 <?php
 require_once "vendor/autoload.php";
 $years = ['2021'];
-$days = range(1,10);
+$days = ['11'];
 
 foreach($years as $year) {
     foreach ($days as $day) {
