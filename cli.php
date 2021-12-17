@@ -22,21 +22,22 @@ try {
 }
 
 if (isset($args)) {
+    $year = $args->getOpt('year');
+    $day = $args->getOpt('day');
     switch ($args->getCommand()) {
         case 'run':
             if (!empty($args->getOpt('day'))) {
-                $advent->runDay($args->getOpt('year'),$args->getOpt('day'));
+                $advent->runDay($year, $day);
             } else {
                 $doneDays = 25;
                 for ($i = 1; $i <= $doneDays; $i++) {
-                    $advent->runDay($args->getOpt('year'), $i);
+                    $advent->runDay($year, $i);
                 }
             }
         break;
         case 'test':
-            if (!empty($args->getOpt('day'))) {
-                $year = $args->getOpt('year');
-                $day = 'Day' . sprintf('%02d', $args->getOpt('day'));
+            if (!empty($day)) {
+                $day = 'Day' . sprintf('%02d', $day);
                 echo "*** TESTING $year DAY $day ***" . PHP_EOL;
                 system("\"vendor/bin/phpunit\" --testdox AdventOfCode$year/$day/{$day}Test.php");
             } else {
