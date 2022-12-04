@@ -335,16 +335,7 @@ After step 195:
 2021 Day11 - Second Answer: 368
 2021 Day11 - Execution finished in 0.079320907592773 seconds.
 </code></pre>
-<pre><code>*** TESTING 2021 DAY Day11 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day11 (mikeroq\AdventOfCode\AdventOfCode2021\Day11\Day11)
- ✔ Part 1 equals 1656
- ✔ Part 2 equals 368
- ✔ Part 1 real answer equals 1601
- ✔ Part 2 real answer equals 368
-
-Time: 00:00.140, Memory: 6.00 MB
-
-OK (4 tests, 4 assertions)
+<pre><code>2021 Day11 - First Answer: 1601
+2021 Day11 - Second Answer: 368
+2021 Day11 - Execution finished in 0.079320907592773 seconds.
 </code></pre>
