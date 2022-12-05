@@ -41,16 +41,7 @@
 2022 Day01 - Second Answer: 209914
 2022 Day01 - Execution finished in 0.021305084228516 seconds.
 </code></pre>
-<pre><code>*** TESTING 2022 DAY Day01 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day01 (mikeroq\AdventOfCode\AdventOfCode2022\Day01\Day01)
- ✔ Part 1 example equals 24000
- ✔ Part 1 equals 74198
- ✔ Part 2 example equals 45000
- ✔ Part 2 equals 209914
-
-Time: 00:00.018, Memory: 6.00 MB
-
-OK (4 tests, 4 assertions)
+<pre><code>2022 Day01 - First Answer: 74198
+2022 Day01 - Second Answer: 209914
+2022 Day01 - Execution finished in 0.021305084228516 seconds.
 </code></pre>

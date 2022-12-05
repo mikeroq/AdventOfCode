@@ -34,16 +34,7 @@ C Z
 2022 Day02 - Second Answer: 13071
 2022 Day02 - Execution finished in 0.0032579898834229 seconds.
 </code></pre>
-<pre><code>*** TESTING 2022 DAY Day02 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day02 (mikeroq\AdventOfCode\AdventOfCode2022\Day02\Day02)
- ✔ Part 1 example equals 15
- ✔ Part 1 equals 10941
- ✔ Part 2 example equals 12
- ✔ Part 2 equals 13071
-
-Time: 00:00.009, Memory: 6.00 MB
-
-OK (4 tests, 4 assertions)
+<pre><code>2022 Day02 - First Answer: 10941
+2022 Day02 - Second Answer: 13071
+2022 Day02 - Execution finished in 0.0032579898834229 seconds.
 </code></pre>

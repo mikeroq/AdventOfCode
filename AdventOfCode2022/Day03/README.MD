@@ -29,5 +29,33 @@ CrZsJsPPZsGzwwsLwLmpwMDw
 
 <form method="post" action="3/answer"><input type="hidden" name="level" value="1"></form>
 <h2>--- Results ---</h2>
-<pre><code>Not completed</code></pre>
-<pre><code>Not completed</code></pre>
+<pre><code>2022 Day03 - First Answer: 7793
+2022 Day03 - Second Answer: 2499
+2022 Day03 - Execution finished in 0.0030069351196289 seconds.
+</code></pre>
+<pre><code>*** TESTING 2022 DAY Day03 ***
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Day03 (mikeroq\AdventOfCode\AdventOfCode2022\Day03\Day03)
+ ✘ Part 1 equals 0
+   │
+   │ Failed asserting that 157 matches expected 0.
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2022\Day03\Day03Test.php:14
+   │ C:\Code\AdventOfCode\vendor\phpunit\phpunit\phpunit:92
+   │
+
+ ✘ Part 2 equals 0
+   │
+   │ Failed asserting that 70 matches expected 0.
+   │
+   │ C:\Code\AdventOfCode\AdventOfCode2022\Day03\Day03Test.php:22
+   │ C:\Code\AdventOfCode\vendor\phpunit\phpunit\phpunit:92
+   │
+
+Time: 00:00.017, Memory: 6.00 MB
+
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 2.
+</code></pre>

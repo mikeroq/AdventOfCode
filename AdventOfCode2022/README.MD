@@ -19,9 +19,9 @@
 <td>✨</td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day03/'>Day 3: Rucksack Reorganization</a></td>
-<td></td>
-<td></td>
+<td>✅  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day03/'>Day 3: Rucksack Reorganization</a></td>
+<td>✨</td>
+<td>✨</td>
 </tr>
 <tr>
 <td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day04/'>Day 4: Camp Cleanup</a></td>

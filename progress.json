@@ -724,8 +724,8 @@
         "part2": true
       },
       "3": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
       },
       "4": {
         "part1": false,
