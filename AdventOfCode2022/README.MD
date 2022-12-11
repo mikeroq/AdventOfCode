@@ -5,8 +5,8 @@
 <thead>
 <tr>
 <th>Day</th>
-<th>Part 1</th>
-<th>Part 2</th>
+<th>1</th>
+<th>2</th>
 </tr></thead><tbody>
 <tr>
 <td>✅  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day01/'>Day 1: Calorie Counting</a></td>
@@ -59,7 +59,7 @@
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day11/'>Day 11: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day11/'>Day 11: Monkey in the Middle</a></td>
 <td></td>
 <td></td>
 </tr>

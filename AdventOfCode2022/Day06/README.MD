@@ -25,14 +25,7 @@
 2022 Day06 - Second Answer: 3986
 2022 Day06 - Execution finished in 0.0028579235076904 seconds.
 </code></pre>
-<pre><code>*** TESTING 2022 DAY Day06 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day06 (mikeroq\AdventOfCode\AdventOfCode2022\Day06\Day06)
- ✔ Part 1 example equals 10
- ✔ Part 2 example equals 29
-
-Time: 00:00.005, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
+<pre><code>2022 Day06 - First Answer: 1300
+2022 Day06 - Second Answer: 3986
+2022 Day06 - Execution finished in 0.0028579235076904 seconds.
 </code></pre>

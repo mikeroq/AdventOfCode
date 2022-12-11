@@ -5,8 +5,8 @@
 <thead>
 <tr>
 <th>Day</th>
-<th>Part 1</th>
-<th>Part 2</th>
+<th>1</th>
+<th>2</th>
 </tr></thead><tbody>
 <tr>
 <td>✅  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2020/Day01/'>Day 1: Report Repair</a></td>
