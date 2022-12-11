@@ -1,7 +1,7 @@
 <?php
 require_once "vendor/autoload.php";
-$years = ['2022'];
-$days = ['11'];
+$years = ['2021'];
+$days = ['12','13','14','15','16','17','18','19','20','21','22','23','24','25'];
 
 foreach($years as $year) {
     foreach ($days as $day) {

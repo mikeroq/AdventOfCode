@@ -64,72 +64,72 @@
 <td>✨</td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day12/'>Day 12: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day12/'>Day 12: Passage Pathing</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day13/'>Day 13: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day13/'>Day 13: Transparent Origami</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day14/'>Day 14: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day14/'>Day 14: Extended Polymerization</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day15/'>Day 15: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day15/'>Day 15: Chiton</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day16/'>Day 16: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day16/'>Day 16: Packet Decoder</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day17/'>Day 17: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day17/'>Day 17: Trick Shot</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day18/'>Day 18: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day18/'>Day 18: Snailfish</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day19/'>Day 19: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day19/'>Day 19: Beacon Scanner</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day20/'>Day 20: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day20/'>Day 20: Trench Map</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day21/'>Day 21: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day21/'>Day 21: Dirac Dice</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day22/'>Day 22: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day22/'>Day 22: Reactor Reboot</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day23/'>Day 23: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day23/'>Day 23: Amphipod</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day24/'>Day 24: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day24/'>Day 24: Arithmetic Logic Unit</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day25/'>Day 25: TBD</a></td>
+<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2021/Day25/'>Day 25: Sea Cucumber</a></td>
 <td></td>
 <td></td>
 </tr>
