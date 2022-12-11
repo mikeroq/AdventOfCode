@@ -88,14 +88,7 @@ move 1 from 1 to 2
 2022 Day05 - Second Answer: MHQTLJRLB
 2022 Day05 - Execution finished in 0.0026731491088867 seconds.
 </code></pre>
-<pre><code>*** TESTING 2022 DAY Day05 ***
-PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
-
-Day05 (mikeroq\AdventOfCode\AdventOfCode2022\Day05\Day05)
- ✔ Part 1 example equals c m z
- ✔ Part 2 example equals m c d
-
-Time: 00:00.007, Memory: 4.00 MB
-
-OK (2 tests, 2 assertions)
+<pre><code>2022 Day05 - First Answer: RLFNRTNFB
+2022 Day05 - Second Answer: MHQTLJRLB
+2022 Day05 - Execution finished in 0.0026731491088867 seconds.
 </code></pre>

@@ -34,9 +34,9 @@
 <td>✨</td>
 </tr>
 <tr>
-<td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day06/'>Day 6: Tuning Trouble</a></td>
-<td></td>
-<td></td>
+<td>✅  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day06/'>Day 6: Tuning Trouble</a></td>
+<td>✨</td>
+<td>✨</td>
 </tr>
 <tr>
 <td>⌚  <a href='https://github.com/mikeroq/adventofcode/tree/master/AdventOfCode2022/Day07/'>Day 7: No Space Left On Device</a></td>

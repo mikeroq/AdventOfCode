@@ -1,0 +1,3 @@
+2022 Day06 - First Answer: 1300
+2022 Day06 - Second Answer: 3986
+2022 Day06 - Execution finished in 0.0028579235076904 seconds.
