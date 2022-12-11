@@ -1,0 +1,3 @@
+2022 Day04 - First Answer: 540
+2022 Day04 - Second Answer: 872
+2022 Day04 - Execution finished in 0.045035123825073 seconds.
