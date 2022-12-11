@@ -1,0 +1,3 @@
+2022 Day05 - First Answer: RLFNRTNFB
+2022 Day05 - Second Answer: MHQTLJRLB
+2022 Day05 - Execution finished in 0.0026731491088867 seconds.

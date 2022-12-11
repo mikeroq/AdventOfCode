@@ -42,12 +42,12 @@ class Day
         }
     }
 
-    public function findFirstAnswer(): int
+    public function findFirstAnswer(): mixed
     {
         return 0;
     }
 
-    public function findSecondAnswer(): int
+    public function findSecondAnswer(): mixed
     {
         return 0;
     }
